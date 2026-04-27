@@ -51,12 +51,7 @@
         "help": "输出目录"
       }
     ],
-    "columns": [
-      "index",
-      "type",
-      "status",
-      "size"
-    ],
+    "columns": ["index", "type", "status", "size"],
     "type": "js",
     "modulePath": "1688/download.js",
     "sourceFile": "1688/download.js",
@@ -170,10 +165,7 @@
         "help": "Article ID or full 36kr article URL"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "36kr/article.js",
     "sourceFile": "36kr/article.js",
@@ -202,11 +194,7 @@
         "help": "List type: renqi (人气), zonghe (综合), shoucang (收藏), catalog (热门资讯)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "url"
-    ],
+    "columns": ["rank", "title", "url"],
     "type": "js",
     "modulePath": "36kr/hot.js",
     "sourceFile": "36kr/hot.js"
@@ -227,13 +215,7 @@
         "help": "Number of articles (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "summary",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "summary", "date", "url"],
     "type": "js",
     "modulePath": "36kr/news.js",
     "sourceFile": "36kr/news.js"
@@ -261,12 +243,7 @@
         "help": "Number of results (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "date", "url"],
     "type": "js",
     "modulePath": "36kr/search.js",
     "sourceFile": "36kr/search.js"
@@ -589,11 +566,7 @@
         "help": "Maximum number of review samples to return (default 10)"
       }
     ],
-    "columns": [
-      "asin",
-      "average_rating_value",
-      "total_review_count"
-    ],
+    "columns": ["asin", "average_rating_value", "total_review_count"],
     "type": "js",
     "modulePath": "amazon/discussion.js",
     "sourceFile": "amazon/discussion.js",
@@ -718,13 +691,7 @@
         "help": "ASIN or product URL, for example B0FJS72893"
       }
     ],
-    "columns": [
-      "asin",
-      "title",
-      "price_text",
-      "rating_value",
-      "review_count"
-    ],
+    "columns": ["asin", "title", "price_text", "rating_value", "review_count"],
     "type": "js",
     "modulePath": "amazon/product.js",
     "sourceFile": "amazon/product.js",
@@ -774,10 +741,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "htmlFile",
-      "snapFile"
-    ],
+    "columns": ["htmlFile", "snapFile"],
     "type": "js",
     "modulePath": "antigravity/dump.js",
     "sourceFile": "antigravity/dump.js",
@@ -791,9 +755,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "code"
-    ],
+    "columns": ["code"],
     "type": "js",
     "modulePath": "antigravity/extract-code.js",
     "sourceFile": "antigravity/extract-code.js",
@@ -815,9 +777,7 @@
         "help": "Target model name (e.g. claude, gemini, o1)"
       }
     ],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "antigravity/model.js",
     "sourceFile": "antigravity/model.js",
@@ -831,9 +791,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "antigravity/new.js",
     "sourceFile": "antigravity/new.js",
@@ -854,10 +812,7 @@
         "help": "Number of recent messages to read (not fully implemented due to generic structure, currently returns full history text or latest chunk)"
       }
     ],
-    "columns": [
-      "role",
-      "content"
-    ],
+    "columns": ["role", "content"],
     "type": "js",
     "modulePath": "antigravity/read.js",
     "sourceFile": "antigravity/read.js",
@@ -879,10 +834,7 @@
         "help": "The message text to send"
       }
     ],
-    "columns": [
-      "Status",
-      "Message"
-    ],
+    "columns": ["Status", "Message"],
     "type": "js",
     "modulePath": "antigravity/send.js",
     "sourceFile": "antigravity/send.js",
@@ -896,11 +848,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "status",
-      "url",
-      "title"
-    ],
+    "columns": ["status", "url", "title"],
     "type": "js",
     "modulePath": "antigravity/status.js",
     "sourceFile": "antigravity/status.js",
@@ -943,11 +891,7 @@
         "help": "Max episodes to show"
       }
     ],
-    "columns": [
-      "title",
-      "duration",
-      "date"
-    ],
+    "columns": ["title", "duration", "date"],
     "type": "js",
     "modulePath": "apple-podcasts/episodes.js",
     "sourceFile": "apple-podcasts/episodes.js"
@@ -974,14 +918,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "id",
-      "title",
-      "author",
-      "episodes",
-      "genre",
-      "url"
-    ],
+    "columns": ["id", "title", "author", "episodes", "genre", "url"],
     "type": "js",
     "modulePath": "apple-podcasts/search.js",
     "sourceFile": "apple-podcasts/search.js"
@@ -1008,12 +945,7 @@
         "help": "Country code (e.g. us, cn, gb, jp)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "id"
-    ],
+    "columns": ["rank", "title", "author", "id"],
     "type": "js",
     "modulePath": "apple-podcasts/top.js",
     "sourceFile": "apple-podcasts/top.js"
@@ -1033,14 +965,7 @@
         "help": "arXiv paper ID (e.g. 1706.03762)"
       }
     ],
-    "columns": [
-      "id",
-      "title",
-      "authors",
-      "published",
-      "abstract",
-      "url"
-    ],
+    "columns": ["id", "title", "authors", "published", "abstract", "url"],
     "type": "js",
     "modulePath": "arxiv/paper.js",
     "sourceFile": "arxiv/paper.js"
@@ -1067,13 +992,7 @@
         "help": "Max results (max 25)"
       }
     ],
-    "columns": [
-      "id",
-      "title",
-      "authors",
-      "published",
-      "url"
-    ],
+    "columns": ["id", "title", "authors", "published", "url"],
     "type": "js",
     "modulePath": "arxiv/search.js",
     "sourceFile": "arxiv/search.js"
@@ -1101,15 +1020,7 @@
         "help": "返回结果数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "authors",
-      "journal",
-      "year",
-      "cited",
-      "url"
-    ],
+    "columns": ["rank", "title", "authors", "journal", "year", "cited", "url"],
     "type": "js",
     "modulePath": "baidu-scholar/search.js",
     "sourceFile": "baidu-scholar/search.js",
@@ -1123,11 +1034,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "band_no",
-      "name",
-      "members"
-    ],
+    "columns": ["band_no", "name", "members"],
     "type": "js",
     "modulePath": "band/bands.js",
     "sourceFile": "band/bands.js",
@@ -1147,12 +1054,7 @@
         "default": "mentioned",
         "required": false,
         "help": "Filter: mentioned (default) | all | post | comment",
-        "choices": [
-          "mentioned",
-          "all",
-          "post",
-          "comment"
-        ]
+        "choices": ["mentioned", "all", "post", "comment"]
       },
       {
         "name": "limit",
@@ -1169,14 +1071,7 @@
         "help": "Show only unread notifications"
       }
     ],
-    "columns": [
-      "time",
-      "band",
-      "type",
-      "from",
-      "text",
-      "url"
-    ],
+    "columns": ["time", "band", "type", "from", "text", "url"],
     "type": "js",
     "modulePath": "band/mentions.js",
     "sourceFile": "band/mentions.js",
@@ -1219,12 +1114,7 @@
         "help": "Include comments (default: true)"
       }
     ],
-    "columns": [
-      "type",
-      "author",
-      "date",
-      "text"
-    ],
+    "columns": ["type", "author", "date", "text"],
     "type": "js",
     "modulePath": "band/post.js",
     "sourceFile": "band/post.js",
@@ -1253,13 +1143,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "date",
-      "author",
-      "content",
-      "comments",
-      "url"
-    ],
+    "columns": ["date", "author", "content", "comments", "url"],
     "type": "js",
     "modulePath": "band/posts.js",
     "sourceFile": "band/posts.js",
@@ -1279,11 +1163,7 @@
         "default": "all",
         "required": false,
         "help": "Filter: all, call, or put",
-        "choices": [
-          "all",
-          "call",
-          "put"
-        ]
+        "choices": ["all", "call", "put"]
       },
       {
         "name": "limit",
@@ -1378,10 +1258,7 @@
         "default": "Call",
         "required": false,
         "help": "Option type: Call or Put",
-        "choices": [
-          "Call",
-          "Put"
-        ]
+        "choices": ["Call", "Put"]
       },
       {
         "name": "limit",
@@ -1464,12 +1341,7 @@
         "help": "Number of headlines (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "description",
-      "url"
-    ],
+    "columns": ["rank", "title", "description", "url"],
     "type": "js",
     "modulePath": "bbc/news.js",
     "sourceFile": "bbc/news.js"
@@ -1497,14 +1369,7 @@
         "help": "Number of comments (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "text",
-      "likes",
-      "replies",
-      "time"
-    ],
+    "columns": ["rank", "author", "text", "likes", "replies", "time"],
     "type": "js",
     "modulePath": "bilibili/comments.js",
     "sourceFile": "bilibili/comments.js",
@@ -1540,12 +1405,7 @@
         "help": "Video quality (best, 1080p, 720p, 480p)"
       }
     ],
-    "columns": [
-      "bvid",
-      "title",
-      "status",
-      "size"
-    ],
+    "columns": ["bvid", "title", "status", "size"],
     "type": "js",
     "modulePath": "bilibili/download.js",
     "sourceFile": "bilibili/download.js",
@@ -1567,13 +1427,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "id",
-      "author",
-      "text",
-      "likes",
-      "url"
-    ],
+    "columns": ["id", "author", "text", "likes", "url"],
     "type": "js",
     "modulePath": "bilibili/dynamic.js",
     "sourceFile": "bilibili/dynamic.js",
@@ -1608,13 +1462,7 @@
         "help": "Page number"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "plays",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "plays", "url"],
     "type": "js",
     "modulePath": "bilibili/favorite.js",
     "sourceFile": "bilibili/favorite.js",
@@ -1657,15 +1505,7 @@
         "help": "Number of pages to fetch (each ~20 items)"
       }
     ],
-    "columns": [
-      "rank",
-      "time",
-      "author",
-      "title",
-      "type",
-      "likes",
-      "url"
-    ],
+    "columns": ["rank", "time", "author", "title", "type", "likes", "url"],
     "type": "js",
     "modulePath": "bilibili/feed.js",
     "sourceFile": "bilibili/feed.js",
@@ -1687,10 +1527,7 @@
         "help": "动态 ID（从 feed 命令的 url 中获取）"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "bilibili/feed.js",
     "sourceFile": "bilibili/feed.js",
@@ -1726,13 +1563,7 @@
         "help": "每页数量 (最大 50)"
       }
     ],
-    "columns": [
-      "mid",
-      "name",
-      "sign",
-      "following",
-      "fans"
-    ],
+    "columns": ["mid", "name", "sign", "following", "fans"],
     "type": "js",
     "modulePath": "bilibili/following.js",
     "sourceFile": "bilibili/following.js",
@@ -1754,13 +1585,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "progress",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "progress", "url"],
     "type": "js",
     "modulePath": "bilibili/history.js",
     "sourceFile": "bilibili/history.js",
@@ -1782,13 +1607,7 @@
         "help": "Number of videos"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "play",
-      "danmaku"
-    ],
+    "columns": ["rank", "title", "author", "play", "danmaku"],
     "type": "js",
     "modulePath": "bilibili/hot.js",
     "sourceFile": "bilibili/hot.js",
@@ -1802,14 +1621,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "name",
-      "uid",
-      "level",
-      "coins",
-      "followers",
-      "following"
-    ],
+    "columns": ["name", "uid", "level", "coins", "followers", "following"],
     "type": "js",
     "modulePath": "bilibili/me.js",
     "sourceFile": "bilibili/me.js",
@@ -1831,13 +1643,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "score",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "score", "url"],
     "type": "js",
     "modulePath": "bilibili/ranking.js",
     "sourceFile": "bilibili/ranking.js",
@@ -1880,13 +1686,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "score",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "score", "url"],
     "type": "js",
     "modulePath": "bilibili/search.js",
     "sourceFile": "bilibili/search.js",
@@ -1913,12 +1713,7 @@
         "help": "字幕语言代码 (如 zh-CN, en-US, ai-zh)，默认取第一个"
       }
     ],
-    "columns": [
-      "index",
-      "from",
-      "to",
-      "content"
-    ],
+    "columns": ["index", "from", "to", "content"],
     "type": "js",
     "modulePath": "bilibili/subtitle.js",
     "sourceFile": "bilibili/subtitle.js",
@@ -1961,14 +1756,7 @@
         "help": "Page number"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "plays",
-      "likes",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "plays", "likes", "date", "url"],
     "type": "js",
     "modulePath": "bilibili/user-videos.js",
     "sourceFile": "bilibili/user-videos.js",
@@ -1989,10 +1777,7 @@
         "help": "BV ID, video URL, or b23.tv short link"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "bilibili/video.js",
     "sourceFile": "bilibili/video.js",
@@ -2021,11 +1806,7 @@
         "help": "Number of price levels (5, 10, 20, 50, 100)"
       }
     ],
-    "columns": [
-      "rank",
-      "ask_price",
-      "ask_qty"
-    ],
+    "columns": ["rank", "ask_price", "ask_qty"],
     "type": "js",
     "modulePath": "binance/asks.js",
     "sourceFile": "binance/asks.js"
@@ -2053,13 +1834,7 @@
         "help": "Number of price levels (5, 10, 20, 50, 100)"
       }
     ],
-    "columns": [
-      "rank",
-      "bid_price",
-      "bid_qty",
-      "ask_price",
-      "ask_qty"
-    ],
+    "columns": ["rank", "bid_price", "bid_qty", "ask_price", "ask_qty"],
     "type": "js",
     "modulePath": "binance/depth.js",
     "sourceFile": "binance/depth.js"
@@ -2080,13 +1855,7 @@
         "help": "Number of trading pairs"
       }
     ],
-    "columns": [
-      "rank",
-      "symbol",
-      "price",
-      "change_24h",
-      "volume"
-    ],
+    "columns": ["rank", "symbol", "price", "change_24h", "volume"],
     "type": "js",
     "modulePath": "binance/gainers.js",
     "sourceFile": "binance/gainers.js"
@@ -2121,13 +1890,7 @@
         "help": "Number of klines (max 1000)"
       }
     ],
-    "columns": [
-      "open",
-      "high",
-      "low",
-      "close",
-      "volume"
-    ],
+    "columns": ["open", "high", "low", "close", "volume"],
     "type": "js",
     "modulePath": "binance/klines.js",
     "sourceFile": "binance/klines.js"
@@ -2148,13 +1911,7 @@
         "help": "Number of trading pairs"
       }
     ],
-    "columns": [
-      "rank",
-      "symbol",
-      "price",
-      "change_24h",
-      "volume"
-    ],
+    "columns": ["rank", "symbol", "price", "change_24h", "volume"],
     "type": "js",
     "modulePath": "binance/losers.js",
     "sourceFile": "binance/losers.js"
@@ -2175,12 +1932,7 @@
         "help": "Number of trading pairs"
       }
     ],
-    "columns": [
-      "symbol",
-      "base",
-      "quote",
-      "status"
-    ],
+    "columns": ["symbol", "base", "quote", "status"],
     "type": "js",
     "modulePath": "binance/pairs.js",
     "sourceFile": "binance/pairs.js"
@@ -2232,11 +1984,7 @@
         "help": "Number of prices"
       }
     ],
-    "columns": [
-      "rank",
-      "symbol",
-      "price"
-    ],
+    "columns": ["rank", "symbol", "price"],
     "type": "js",
     "modulePath": "binance/prices.js",
     "sourceFile": "binance/prices.js"
@@ -2323,13 +2071,7 @@
         "help": "Number of trades (max 1000)"
       }
     ],
-    "columns": [
-      "id",
-      "price",
-      "qty",
-      "quote_qty",
-      "buyer_maker"
-    ],
+    "columns": ["id", "price", "qty", "quote_qty", "buyer_maker"],
     "type": "js",
     "modulePath": "binance/trades.js",
     "sourceFile": "binance/trades.js"
@@ -2350,12 +2092,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/businessweek.js",
     "sourceFile": "bloomberg/businessweek.js"
@@ -2376,12 +2113,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/economics.js",
     "sourceFile": "bloomberg/economics.js"
@@ -2394,10 +2126,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "name",
-      "url"
-    ],
+    "columns": ["name", "url"],
     "type": "js",
     "modulePath": "bloomberg/feeds.js",
     "sourceFile": "bloomberg/feeds.js"
@@ -2418,12 +2147,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/industries.js",
     "sourceFile": "bloomberg/industries.js"
@@ -2444,12 +2168,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/main.js",
     "sourceFile": "bloomberg/main.js"
@@ -2470,12 +2189,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/markets.js",
     "sourceFile": "bloomberg/markets.js"
@@ -2496,13 +2210,7 @@
         "help": "Bloomberg story/article URL or relative Bloomberg path"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks",
-      "content"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks", "content"],
     "type": "js",
     "modulePath": "bloomberg/news.js",
     "sourceFile": "bloomberg/news.js",
@@ -2524,12 +2232,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/opinions.js",
     "sourceFile": "bloomberg/opinions.js"
@@ -2550,12 +2253,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/politics.js",
     "sourceFile": "bloomberg/politics.js"
@@ -2576,12 +2274,7 @@
         "help": "Number of feed items to return (max 20)"
       }
     ],
-    "columns": [
-      "title",
-      "summary",
-      "link",
-      "mediaLinks"
-    ],
+    "columns": ["title", "summary", "link", "mediaLinks"],
     "type": "js",
     "modulePath": "bloomberg/tech.js",
     "sourceFile": "bloomberg/tech.js"
@@ -2602,13 +2295,7 @@
         "help": "Number of feeds"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "likes",
-      "creator",
-      "description"
-    ],
+    "columns": ["rank", "name", "likes", "creator", "description"],
     "type": "js",
     "modulePath": "bluesky/feeds.js",
     "sourceFile": "bluesky/feeds.js"
@@ -2636,12 +2323,7 @@
         "help": "Number of followers"
       }
     ],
-    "columns": [
-      "rank",
-      "handle",
-      "name",
-      "description"
-    ],
+    "columns": ["rank", "handle", "name", "description"],
     "type": "js",
     "modulePath": "bluesky/followers.js",
     "sourceFile": "bluesky/followers.js"
@@ -2669,12 +2351,7 @@
         "help": "Number of accounts"
       }
     ],
-    "columns": [
-      "rank",
-      "handle",
-      "name",
-      "description"
-    ],
+    "columns": ["rank", "handle", "name", "description"],
     "type": "js",
     "modulePath": "bluesky/following.js",
     "sourceFile": "bluesky/following.js"
@@ -2730,13 +2407,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "handle",
-      "name",
-      "followers",
-      "description"
-    ],
+    "columns": ["rank", "handle", "name", "followers", "description"],
     "type": "js",
     "modulePath": "bluesky/search.js",
     "sourceFile": "bluesky/search.js"
@@ -2764,13 +2435,7 @@
         "help": "Number of starter packs"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "description",
-      "members",
-      "joins"
-    ],
+    "columns": ["rank", "name", "description", "members", "joins"],
     "type": "js",
     "modulePath": "bluesky/starter-packs.js",
     "sourceFile": "bluesky/starter-packs.js"
@@ -2798,13 +2463,7 @@
         "help": "Number of replies"
       }
     ],
-    "columns": [
-      "author",
-      "text",
-      "likes",
-      "reposts",
-      "replies_count"
-    ],
+    "columns": ["author", "text", "likes", "reposts", "replies_count"],
     "type": "js",
     "modulePath": "bluesky/thread.js",
     "sourceFile": "bluesky/thread.js"
@@ -2825,11 +2484,7 @@
         "help": "Number of topics"
       }
     ],
-    "columns": [
-      "rank",
-      "topic",
-      "link"
-    ],
+    "columns": ["rank", "topic", "link"],
     "type": "js",
     "modulePath": "bluesky/trending.js",
     "sourceFile": "bluesky/trending.js"
@@ -2857,13 +2512,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "rank",
-      "text",
-      "likes",
-      "reposts",
-      "replies"
-    ],
+    "columns": ["rank", "text", "likes", "reposts", "replies"],
     "type": "js",
     "modulePath": "bluesky/user.js",
     "sourceFile": "bluesky/user.js"
@@ -2898,11 +2547,7 @@
         "help": "Custom greeting message (uses default if empty)"
       }
     ],
-    "columns": [
-      "name",
-      "status",
-      "detail"
-    ],
+    "columns": ["name", "status", "detail"],
     "type": "js",
     "modulePath": "boss/batchgreet.js",
     "sourceFile": "boss/batchgreet.js",
@@ -2938,14 +2583,7 @@
         "help": "Filter by job ID (0=all)"
       }
     ],
-    "columns": [
-      "name",
-      "job",
-      "last_msg",
-      "last_time",
-      "uid",
-      "security_id"
-    ],
+    "columns": ["name", "job", "last_msg", "last_time", "uid", "security_id"],
     "type": "js",
     "modulePath": "boss/chatlist.js",
     "sourceFile": "boss/chatlist.js",
@@ -2974,12 +2612,7 @@
         "help": "Page number"
       }
     ],
-    "columns": [
-      "from",
-      "type",
-      "text",
-      "time"
-    ],
+    "columns": ["from", "type", "text", "time"],
     "type": "js",
     "modulePath": "boss/chatmsg.js",
     "sourceFile": "boss/chatmsg.js",
@@ -3047,16 +2680,10 @@
         "default": "phone",
         "required": false,
         "help": "Exchange type: phone or wechat",
-        "choices": [
-          "phone",
-          "wechat"
-        ]
+        "choices": ["phone", "wechat"]
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "boss/exchange.js",
     "sourceFile": "boss/exchange.js",
@@ -3097,10 +2724,7 @@
         "help": "Custom greeting message (uses default template if empty)"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "boss/greet.js",
     "sourceFile": "boss/greet.js",
@@ -3142,10 +2766,7 @@
         "help": "Contact person name (uses saved contact if empty)"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "boss/invite.js",
     "sourceFile": "boss/invite.js",
@@ -3159,13 +2780,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "job_name",
-      "salary",
-      "city",
-      "status",
-      "encrypt_job_id"
-    ],
+    "columns": ["job_name", "salary", "city", "status", "encrypt_job_id"],
     "type": "js",
     "modulePath": "boss/joblist.js",
     "sourceFile": "boss/joblist.js",
@@ -3200,10 +2815,7 @@
         "help": "Remove the label instead of adding"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "boss/mark.js",
     "sourceFile": "boss/mark.js",
@@ -3377,10 +2989,7 @@
         "help": "Message text to send"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "boss/send.js",
     "sourceFile": "boss/send.js",
@@ -3435,12 +3044,7 @@
         "default": "all",
         "required": false,
         "help": "按状态过滤",
-        "choices": [
-          "all",
-          "pending",
-          "submitted",
-          "graded"
-        ]
+        "choices": ["all", "pending", "submitted", "graded"]
       },
       {
         "name": "limit",
@@ -3450,14 +3054,7 @@
         "help": "最大返回数量"
       }
     ],
-    "columns": [
-      "rank",
-      "course",
-      "title",
-      "deadline",
-      "status",
-      "score"
-    ],
+    "columns": ["rank", "course", "title", "deadline", "status", "score"],
     "timeout": 90,
     "type": "js",
     "modulePath": "chaoxing/assignments.js",
@@ -3484,12 +3081,7 @@
         "default": "all",
         "required": false,
         "help": "按状态过滤",
-        "choices": [
-          "all",
-          "upcoming",
-          "ongoing",
-          "finished"
-        ]
+        "choices": ["all", "upcoming", "ongoing", "finished"]
       },
       {
         "name": "limit",
@@ -3499,15 +3091,7 @@
         "help": "最大返回数量"
       }
     ],
-    "columns": [
-      "rank",
-      "course",
-      "title",
-      "start",
-      "end",
-      "status",
-      "score"
-    ],
+    "columns": ["rank", "course", "title", "start", "end", "status", "score"],
     "timeout": 90,
     "type": "js",
     "modulePath": "chaoxing/exams.js",
@@ -3544,11 +3128,7 @@
         "help": "Skip download shorthand; only show ChatGPT link"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "link"
-    ],
+    "columns": ["status", "file", "link"],
     "timeout": 240,
     "type": "js",
     "modulePath": "chatgpt/image.js",
@@ -3591,10 +3171,7 @@
         "help": "Max seconds to wait for response (default: 30)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "chatgpt-app/ask.js",
     "sourceFile": "chatgpt-app/ask.js"
@@ -3622,10 +3199,7 @@
         ]
       }
     ],
-    "columns": [
-      "Status",
-      "Model"
-    ],
+    "columns": ["Status", "Model"],
     "type": "js",
     "modulePath": "chatgpt-app/model.js",
     "sourceFile": "chatgpt-app/model.js"
@@ -3638,9 +3212,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "chatgpt-app/new.js",
     "sourceFile": "chatgpt-app/new.js"
@@ -3653,10 +3225,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "chatgpt-app/read.js",
     "sourceFile": "chatgpt-app/read.js"
@@ -3690,9 +3259,7 @@
         ]
       }
     ],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "chatgpt-app/send.js",
     "sourceFile": "chatgpt-app/send.js"
@@ -3705,9 +3272,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "chatgpt-app/status.js",
     "sourceFile": "chatgpt-app/status.js"
@@ -3735,10 +3300,7 @@
         "help": "Max seconds to wait (default: 30)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "chatwise/ask.js",
     "sourceFile": "chatwise/ask.js",
@@ -3759,11 +3321,7 @@
         "help": "Output file (default: /tmp/chatwise-export.md)"
       }
     ],
-    "columns": [
-      "Status",
-      "File",
-      "Messages"
-    ],
+    "columns": ["Status", "File", "Messages"],
     "type": "js",
     "modulePath": "chatwise/export.js",
     "sourceFile": "chatwise/export.js",
@@ -3777,10 +3335,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Title"
-    ],
+    "columns": ["Index", "Title"],
     "type": "js",
     "modulePath": "chatwise/history.js",
     "sourceFile": "chatwise/history.js",
@@ -3802,10 +3357,7 @@
         "help": "Model to switch to (e.g. gpt-4, claude-3)"
       }
     ],
-    "columns": [
-      "Status",
-      "Model"
-    ],
+    "columns": ["Status", "Model"],
     "type": "js",
     "modulePath": "chatwise/model.js",
     "sourceFile": "chatwise/model.js",
@@ -3819,9 +3371,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Content"
-    ],
+    "columns": ["Content"],
     "type": "js",
     "modulePath": "chatwise/read.js",
     "sourceFile": "chatwise/read.js",
@@ -3843,10 +3393,7 @@
         "help": "Message to send"
       }
     ],
-    "columns": [
-      "Status",
-      "InjectedText"
-    ],
+    "columns": ["Status", "InjectedText"],
     "type": "js",
     "modulePath": "chatwise/send.js",
     "sourceFile": "chatwise/send.js",
@@ -3875,14 +3422,7 @@
         "help": "返回结果数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "authors",
-      "journal",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "authors", "journal", "date", "url"],
     "type": "js",
     "modulePath": "cnki/search.js",
     "sourceFile": "cnki/search.js",
@@ -3911,10 +3451,7 @@
         "help": "Max seconds to wait for response (default: 60)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "codex/ask.js",
     "sourceFile": "codex/ask.js",
@@ -3935,11 +3472,7 @@
         "help": "Output file (default: /tmp/codex-export.md)"
       }
     ],
-    "columns": [
-      "Status",
-      "File",
-      "Messages"
-    ],
+    "columns": ["Status", "File", "Messages"],
     "type": "js",
     "modulePath": "codex/export.js",
     "sourceFile": "codex/export.js",
@@ -3953,10 +3486,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "File",
-      "Diff"
-    ],
+    "columns": ["File", "Diff"],
     "type": "js",
     "modulePath": "codex/extract-diff.js",
     "sourceFile": "codex/extract-diff.js",
@@ -3970,10 +3500,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Title"
-    ],
+    "columns": ["Index", "Title"],
     "type": "js",
     "modulePath": "codex/history.js",
     "sourceFile": "codex/history.js",
@@ -3995,10 +3522,7 @@
         "help": "The ID of the model to switch to (e.g. gpt-4)"
       }
     ],
-    "columns": [
-      "Status",
-      "Model"
-    ],
+    "columns": ["Status", "Model"],
     "type": "js",
     "modulePath": "codex/model.js",
     "sourceFile": "codex/model.js",
@@ -4012,9 +3536,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Content"
-    ],
+    "columns": ["Content"],
     "type": "js",
     "modulePath": "codex/read.js",
     "sourceFile": "codex/read.js",
@@ -4036,10 +3558,7 @@
         "help": "Text, command (e.g. /review), or skill (e.g. $imagegen)"
       }
     ],
-    "columns": [
-      "Status",
-      "InjectedText"
-    ],
+    "columns": ["Status", "InjectedText"],
     "type": "js",
     "modulePath": "codex/send.js",
     "sourceFile": "codex/send.js",
@@ -4067,12 +3586,7 @@
         "help": "Canonical product URL"
       }
     ],
-    "columns": [
-      "ok",
-      "product_id",
-      "url",
-      "message"
-    ],
+    "columns": ["ok", "product_id", "url", "message"],
     "type": "js",
     "modulePath": "coupang/add-to-cart.js",
     "sourceFile": "coupang/add-to-cart.js",
@@ -4153,14 +3667,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "type",
-      "score",
-      "price",
-      "url"
-    ],
+    "columns": ["rank", "name", "type", "score", "price", "url"],
     "type": "js",
     "modulePath": "ctrip/search.js",
     "sourceFile": "ctrip/search.js"
@@ -4188,10 +3695,7 @@
         "help": "Max seconds to wait for response (default: 30)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "cursor/ask.js",
     "sourceFile": "cursor/ask.js",
@@ -4213,10 +3717,7 @@
         "help": "Text to send into Composer"
       }
     ],
-    "columns": [
-      "Status",
-      "InjectedText"
-    ],
+    "columns": ["Status", "InjectedText"],
     "type": "js",
     "modulePath": "cursor/composer.js",
     "sourceFile": "cursor/composer.js",
@@ -4237,11 +3738,7 @@
         "help": "Output file (default: /tmp/cursor-export.md)"
       }
     ],
-    "columns": [
-      "Status",
-      "File",
-      "Messages"
-    ],
+    "columns": ["Status", "File", "Messages"],
     "type": "js",
     "modulePath": "cursor/export.js",
     "sourceFile": "cursor/export.js",
@@ -4255,9 +3752,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Code"
-    ],
+    "columns": ["Code"],
     "type": "js",
     "modulePath": "cursor/extract-code.js",
     "sourceFile": "cursor/extract-code.js",
@@ -4271,10 +3766,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Title"
-    ],
+    "columns": ["Index", "Title"],
     "type": "js",
     "modulePath": "cursor/history.js",
     "sourceFile": "cursor/history.js",
@@ -4296,10 +3788,7 @@
         "help": "The ID of the model to switch to (e.g. claude-3.5-sonnet)"
       }
     ],
-    "columns": [
-      "Status",
-      "Model"
-    ],
+    "columns": ["Status", "Model"],
     "type": "js",
     "modulePath": "cursor/model.js",
     "sourceFile": "cursor/model.js",
@@ -4313,10 +3802,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "cursor/read.js",
     "sourceFile": "cursor/read.js",
@@ -4338,10 +3824,7 @@
         "help": "Text to send into Cursor"
       }
     ],
-    "columns": [
-      "Status",
-      "InjectedText"
-    ],
+    "columns": ["Status", "InjectedText"],
     "type": "js",
     "modulePath": "cursor/send.js",
     "sourceFile": "cursor/send.js",
@@ -4382,10 +3865,7 @@
         "default": "instant",
         "required": false,
         "help": "Model to use: instant or expert",
-        "choices": [
-          "instant",
-          "expert"
-        ]
+        "choices": ["instant", "expert"]
       },
       {
         "name": "think",
@@ -4430,11 +3910,7 @@
         "help": "Max conversations to show"
       }
     ],
-    "columns": [
-      "Index",
-      "Title",
-      "Url"
-    ],
+    "columns": ["Index", "Title", "Url"],
     "type": "js",
     "modulePath": "deepseek/history.js",
     "sourceFile": "deepseek/history.js",
@@ -4448,9 +3924,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "deepseek/new.js",
     "sourceFile": "deepseek/new.js",
@@ -4464,10 +3938,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "deepseek/read.js",
     "sourceFile": "deepseek/read.js",
@@ -4481,11 +3952,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Login",
-      "Url"
-    ],
+    "columns": ["Status", "Login", "Url"],
     "type": "js",
     "modulePath": "deepseek/status.js",
     "sourceFile": "deepseek/status.js",
@@ -4514,14 +3981,7 @@
         "help": "Number of articles"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "reactions",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "author", "reactions", "comments", "tags"],
     "type": "js",
     "modulePath": "devto/tag.js",
     "sourceFile": "devto/tag.js"
@@ -4542,14 +4002,7 @@
         "help": "Number of articles"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "reactions",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "author", "reactions", "comments", "tags"],
     "type": "js",
     "modulePath": "devto/top.js",
     "sourceFile": "devto/top.js"
@@ -4577,13 +4030,7 @@
         "help": "Number of articles"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "reactions",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "reactions", "comments", "tags"],
     "type": "js",
     "modulePath": "devto/user.js",
     "sourceFile": "devto/user.js"
@@ -4604,10 +4051,7 @@
         "help": "Word to get example sentences for"
       }
     ],
-    "columns": [
-      "word",
-      "example"
-    ],
+    "columns": ["word", "example"],
     "type": "js",
     "modulePath": "dictionary/examples.js",
     "sourceFile": "dictionary/examples.js"
@@ -4628,12 +4072,7 @@
         "help": "Word to define (e.g., serendipity)"
       }
     ],
-    "columns": [
-      "word",
-      "phonetic",
-      "type",
-      "definition"
-    ],
+    "columns": ["word", "phonetic", "type", "definition"],
     "type": "js",
     "modulePath": "dictionary/search.js",
     "sourceFile": "dictionary/search.js"
@@ -4654,13 +4093,30 @@
         "help": "Word to find synonyms for (e.g., serendipity)"
       }
     ],
-    "columns": [
-      "word",
-      "synonyms"
-    ],
+    "columns": ["word", "synonyms"],
     "type": "js",
     "modulePath": "dictionary/synonyms.js",
     "sourceFile": "dictionary/synonyms.js"
+  },
+  {
+    "site": "dictionary",
+    "name": "wotd",
+    "description": "Dictionary.com Word of the Day",
+    "strategy": "public",
+    "browser": false,
+    "args": [
+      {
+        "name": "limit",
+        "type": "int",
+        "default": 1,
+        "required": false,
+        "help": "Number of recent words (default 1)"
+      }
+    ],
+    "columns": ["date", "word", "pos", "phonetic", "definition", "example"],
+    "type": "js",
+    "modulePath": "dictionary/wotd.js",
+    "sourceFile": "dictionary/wotd.js"
   },
   {
     "site": "discord-app",
@@ -4670,11 +4126,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Channel",
-      "Type"
-    ],
+    "columns": ["Index", "Channel", "Type"],
     "type": "js",
     "modulePath": "discord-app/channels.js",
     "sourceFile": "discord-app/channels.js",
@@ -4696,10 +4148,7 @@
         "help": "The ID of the message to delete (visible via Developer Mode or the read command)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "discord-app/delete.js",
     "sourceFile": "discord-app/delete.js",
@@ -4713,11 +4162,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Name",
-      "Status"
-    ],
+    "columns": ["Index", "Name", "Status"],
     "type": "js",
     "modulePath": "discord-app/members.js",
     "sourceFile": "discord-app/members.js",
@@ -4739,11 +4184,7 @@
         "help": "Number of messages to read (default: 20)"
       }
     ],
-    "columns": [
-      "Author",
-      "Time",
-      "Message"
-    ],
+    "columns": ["Author", "Time", "Message"],
     "type": "js",
     "modulePath": "discord-app/read.js",
     "sourceFile": "discord-app/read.js",
@@ -4765,11 +4206,7 @@
         "help": "Search query"
       }
     ],
-    "columns": [
-      "Index",
-      "Author",
-      "Message"
-    ],
+    "columns": ["Index", "Author", "Message"],
     "type": "js",
     "modulePath": "discord-app/search.js",
     "sourceFile": "discord-app/search.js",
@@ -4791,9 +4228,7 @@
         "help": "Message to send"
       }
     ],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "discord-app/send.js",
     "sourceFile": "discord-app/send.js",
@@ -4807,10 +4242,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Server"
-    ],
+    "columns": ["Index", "Server"],
     "type": "js",
     "modulePath": "discord-app/servers.js",
     "sourceFile": "discord-app/servers.js",
@@ -4824,11 +4256,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Url",
-      "Title"
-    ],
+    "columns": ["Status", "Url", "Title"],
     "type": "js",
     "modulePath": "discord-app/status.js",
     "sourceFile": "discord-app/status.js",
@@ -4908,12 +4336,7 @@
         "help": "输出目录"
       }
     ],
-    "columns": [
-      "index",
-      "title",
-      "status",
-      "size"
-    ],
+    "columns": ["index", "title", "status", "size"],
     "type": "js",
     "modulePath": "douban/download.js",
     "sourceFile": "douban/download.js",
@@ -4933,12 +4356,7 @@
         "default": "collect",
         "required": false,
         "help": "标记类型: collect(看过), wish(想看), do(在看), all(全部)",
-        "choices": [
-          "collect",
-          "wish",
-          "do",
-          "all"
-        ]
+        "choices": ["collect", "wish", "do", "all"]
       },
       {
         "name": "limit",
@@ -5029,12 +4447,7 @@
         "help": "最多返回多少张图片"
       }
     ],
-    "columns": [
-      "index",
-      "title",
-      "image_url",
-      "detail_url"
-    ],
+    "columns": ["index", "title", "image_url", "detail_url"],
     "type": "js",
     "modulePath": "douban/photos.js",
     "sourceFile": "douban/photos.js",
@@ -5069,14 +4482,7 @@
         "help": "获取完整影评内容"
       }
     ],
-    "columns": [
-      "movieTitle",
-      "title",
-      "myRating",
-      "votes",
-      "content",
-      "url"
-    ],
+    "columns": ["movieTitle", "title", "myRating", "votes", "content", "url"],
     "type": "js",
     "modulePath": "douban/reviews.js",
     "sourceFile": "douban/reviews.js",
@@ -5096,11 +4502,7 @@
         "default": "movie",
         "required": false,
         "help": "搜索类型（movie=电影, book=图书, music=音乐）",
-        "choices": [
-          "movie",
-          "book",
-          "music"
-        ]
+        "choices": ["movie", "book", "music"]
       },
       {
         "name": "keyword",
@@ -5117,13 +4519,7 @@
         "help": "返回结果数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "rating",
-      "abstract",
-      "url"
-    ],
+    "columns": ["rank", "title", "rating", "abstract", "url"],
     "type": "js",
     "modulePath": "douban/search.js",
     "sourceFile": "douban/search.js",
@@ -5150,10 +4546,7 @@
         "default": "movie",
         "required": false,
         "help": "条目类型（movie=电影, book=图书）",
-        "choices": [
-          "movie",
-          "book"
-        ]
+        "choices": ["movie", "book"]
       }
     ],
     "columns": [
@@ -5205,13 +4598,7 @@
         "help": "返回结果数量"
       }
     ],
-    "columns": [
-      "rank",
-      "id",
-      "title",
-      "rating",
-      "url"
-    ],
+    "columns": ["rank", "id", "title", "rating", "url"],
     "type": "js",
     "modulePath": "douban/top250.js",
     "sourceFile": "douban/top250.js",
@@ -5240,10 +4627,7 @@
         "help": "Max seconds to wait (default: 60)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "timeout": 180,
     "type": "js",
     "modulePath": "doubao/ask.js",
@@ -5266,10 +4650,7 @@
         "help": "Conversation ID (numeric or full URL)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "doubao/detail.js",
     "sourceFile": "doubao/detail.js",
@@ -5291,12 +4672,7 @@
         "help": "Max number of conversations to show"
       }
     ],
-    "columns": [
-      "Index",
-      "Id",
-      "Title",
-      "Url"
-    ],
+    "columns": ["Index", "Id", "Title", "Url"],
     "type": "js",
     "modulePath": "doubao/history.js",
     "sourceFile": "doubao/history.js",
@@ -5325,10 +4701,7 @@
         "help": "Also include AI chapters"
       }
     ],
-    "columns": [
-      "Section",
-      "Content"
-    ],
+    "columns": ["Section", "Content"],
     "type": "js",
     "modulePath": "doubao/meeting-summary.js",
     "sourceFile": "doubao/meeting-summary.js",
@@ -5357,10 +4730,7 @@
         "help": "Trigger browser file download instead of reading text"
       }
     ],
-    "columns": [
-      "Section",
-      "Content"
-    ],
+    "columns": ["Section", "Content"],
     "type": "js",
     "modulePath": "doubao/meeting-transcript.js",
     "sourceFile": "doubao/meeting-transcript.js",
@@ -5374,10 +4744,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Action"
-    ],
+    "columns": ["Status", "Action"],
     "type": "js",
     "modulePath": "doubao/new.js",
     "sourceFile": "doubao/new.js",
@@ -5391,10 +4758,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "doubao/read.js",
     "sourceFile": "doubao/read.js",
@@ -5416,11 +4780,7 @@
         "help": "Message to send"
       }
     ],
-    "columns": [
-      "Status",
-      "SubmittedBy",
-      "InjectedText"
-    ],
+    "columns": ["Status", "SubmittedBy", "InjectedText"],
     "type": "js",
     "modulePath": "doubao/send.js",
     "sourceFile": "doubao/send.js",
@@ -5434,12 +4794,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Login",
-      "Url",
-      "Title"
-    ],
+    "columns": ["Status", "Login", "Url", "Title"],
     "type": "js",
     "modulePath": "doubao/status.js",
     "sourceFile": "doubao/status.js",
@@ -5468,10 +4823,7 @@
         "help": "Max seconds to wait for response"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "doubao-app/ask.js",
     "sourceFile": "doubao-app/ask.js",
@@ -5485,10 +4837,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "File"
-    ],
+    "columns": ["Status", "File"],
     "type": "js",
     "modulePath": "doubao-app/dump.js",
     "sourceFile": "doubao-app/dump.js",
@@ -5502,9 +4851,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "doubao-app/new.js",
     "sourceFile": "doubao-app/new.js",
@@ -5518,10 +4865,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "type": "js",
     "modulePath": "doubao-app/read.js",
     "sourceFile": "doubao-app/read.js",
@@ -5542,10 +4886,7 @@
         "help": "Output file path (default: /tmp/doubao-screenshot.png)"
       }
     ],
-    "columns": [
-      "Status",
-      "File"
-    ],
+    "columns": ["Status", "File"],
     "type": "js",
     "modulePath": "doubao-app/screenshot.js",
     "sourceFile": "doubao-app/screenshot.js",
@@ -5567,10 +4908,7 @@
         "help": "Message text to send"
       }
     ],
-    "columns": [
-      "Status",
-      "Text"
-    ],
+    "columns": ["Status", "Text"],
     "type": "js",
     "modulePath": "doubao-app/send.js",
     "sourceFile": "doubao-app/send.js",
@@ -5584,11 +4922,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Url",
-      "Title"
-    ],
+    "columns": ["Status", "Url", "Title"],
     "type": "js",
     "modulePath": "doubao-app/status.js",
     "sourceFile": "doubao-app/status.js",
@@ -5602,11 +4936,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "activity_id",
-      "title",
-      "end_time"
-    ],
+    "columns": ["activity_id", "title", "end_time"],
     "type": "js",
     "modulePath": "douyin/activities.js",
     "sourceFile": "douyin/activities.js",
@@ -5628,11 +4958,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "mix_id",
-      "name",
-      "item_count"
-    ],
+    "columns": ["mix_id", "name", "item_count"],
     "type": "js",
     "modulePath": "douyin/collections.js",
     "sourceFile": "douyin/collections.js",
@@ -5654,9 +4980,7 @@
         "help": "作品 ID"
       }
     ],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "douyin/delete.js",
     "sourceFile": "douyin/delete.js",
@@ -5703,17 +5027,10 @@
         "default": "public",
         "required": false,
         "help": "",
-        "choices": [
-          "public",
-          "friends",
-          "private"
-        ]
+        "choices": ["public", "friends", "private"]
       }
     ],
-    "columns": [
-      "status",
-      "draft_id"
-    ],
+    "columns": ["status", "draft_id"],
     "type": "js",
     "modulePath": "douyin/draft.js",
     "sourceFile": "douyin/draft.js",
@@ -5735,11 +5052,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "aweme_id",
-      "title",
-      "create_time"
-    ],
+    "columns": ["aweme_id", "title", "create_time"],
     "type": "js",
     "modulePath": "douyin/drafts.js",
     "sourceFile": "douyin/drafts.js",
@@ -5759,11 +5072,7 @@
         "required": true,
         "positional": true,
         "help": "search=关键词搜索 suggest=AI推荐 hot=热点词",
-        "choices": [
-          "search",
-          "suggest",
-          "hot"
-        ]
+        "choices": ["search", "suggest", "hot"]
       },
       {
         "name": "keyword",
@@ -5787,11 +5096,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "name",
-      "id",
-      "view_count"
-    ],
+    "columns": ["name", "id", "view_count"],
     "type": "js",
     "modulePath": "douyin/hashtag.js",
     "sourceFile": "douyin/hashtag.js",
@@ -5820,12 +5125,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "poi_id",
-      "name",
-      "address",
-      "city"
-    ],
+    "columns": ["poi_id", "name", "address", "city"],
     "type": "js",
     "modulePath": "douyin/location.js",
     "sourceFile": "douyin/location.js",
@@ -5898,11 +5198,7 @@
         "default": "public",
         "required": false,
         "help": "",
-        "choices": [
-          "public",
-          "friends",
-          "private"
-        ]
+        "choices": ["public", "friends", "private"]
       },
       {
         "name": "allow_download",
@@ -5961,12 +5257,7 @@
         "help": "同步发布到头条"
       }
     ],
-    "columns": [
-      "status",
-      "aweme_id",
-      "url",
-      "publish_time"
-    ],
+    "columns": ["status", "aweme_id", "url", "publish_time"],
     "type": "js",
     "modulePath": "douyin/publish.js",
     "sourceFile": "douyin/publish.js",
@@ -5988,10 +5279,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "metric",
-      "value"
-    ],
+    "columns": ["metric", "value"],
     "type": "js",
     "modulePath": "douyin/stats.js",
     "sourceFile": "douyin/stats.js",
@@ -6027,9 +5315,7 @@
         "help": "新的正文内容"
       }
     ],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "douyin/update.js",
     "sourceFile": "douyin/update.js",
@@ -6114,12 +5400,7 @@
         "default": "all",
         "required": false,
         "help": "",
-        "choices": [
-          "all",
-          "published",
-          "reviewing",
-          "scheduled"
-        ]
+        "choices": ["all", "published", "reviewing", "scheduled"]
       }
     ],
     "columns": [
@@ -6158,14 +5439,7 @@
         "help": "返回数量 (max 100)"
       }
     ],
-    "columns": [
-      "time",
-      "code",
-      "name",
-      "title",
-      "category",
-      "url"
-    ],
+    "columns": ["time", "code", "name", "title", "category", "url"],
     "type": "js",
     "modulePath": "eastmoney/announcement.js",
     "sourceFile": "eastmoney/announcement.js"
@@ -6425,12 +5699,7 @@
         "help": "返回数量 (max 100)"
       }
     ],
-    "columns": [
-      "time",
-      "title",
-      "summary",
-      "stocks"
-    ],
+    "columns": ["time", "title", "summary", "stocks"],
     "type": "js",
     "modulePath": "eastmoney/kuaixun.js",
     "sourceFile": "eastmoney/kuaixun.js"
@@ -6547,12 +5816,7 @@
         "help": "返回最近 N 分钟"
       }
     ],
-    "columns": [
-      "time",
-      "cumulativeNetYi",
-      "minuteNetYi",
-      "totalNetYi"
-    ],
+    "columns": ["time", "cumulativeNetYi", "minuteNetYi", "totalNetYi"],
     "type": "js",
     "modulePath": "eastmoney/northbound.js",
     "sourceFile": "eastmoney/northbound.js"
@@ -6706,10 +5970,7 @@
         "help": "Facebook username or profile URL"
       }
     ],
-    "columns": [
-      "status",
-      "username"
-    ],
+    "columns": ["status", "username"],
     "type": "js",
     "modulePath": "facebook/add-friend.js",
     "sourceFile": "facebook/add-friend.js",
@@ -6731,10 +5992,7 @@
         "help": "Number of categories"
       }
     ],
-    "columns": [
-      "index",
-      "name"
-    ],
+    "columns": ["index", "name"],
     "type": "js",
     "modulePath": "facebook/events.js",
     "sourceFile": "facebook/events.js",
@@ -6756,14 +6014,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "index",
-      "author",
-      "content",
-      "likes",
-      "comments",
-      "shares"
-    ],
+    "columns": ["index", "author", "content", "likes", "comments", "shares"],
     "type": "js",
     "modulePath": "facebook/feed.js",
     "sourceFile": "facebook/feed.js",
@@ -6785,11 +6036,7 @@
         "help": "Number of friend suggestions"
       }
     ],
-    "columns": [
-      "index",
-      "name",
-      "mutual"
-    ],
+    "columns": ["index", "name", "mutual"],
     "type": "js",
     "modulePath": "facebook/friends.js",
     "sourceFile": "facebook/friends.js",
@@ -6811,12 +6058,7 @@
         "help": "Number of groups"
       }
     ],
-    "columns": [
-      "index",
-      "name",
-      "last_post",
-      "url"
-    ],
+    "columns": ["index", "name", "last_post", "url"],
     "type": "js",
     "modulePath": "facebook/groups.js",
     "sourceFile": "facebook/groups.js",
@@ -6838,10 +6080,7 @@
         "help": "Group ID or URL path (e.g. '1876150192925481' or group name)"
       }
     ],
-    "columns": [
-      "status",
-      "group"
-    ],
+    "columns": ["status", "group"],
     "type": "js",
     "modulePath": "facebook/join-group.js",
     "sourceFile": "facebook/join-group.js",
@@ -6863,12 +6102,7 @@
         "help": "Number of memories"
       }
     ],
-    "columns": [
-      "index",
-      "source",
-      "content",
-      "time"
-    ],
+    "columns": ["index", "source", "content", "time"],
     "type": "js",
     "modulePath": "facebook/memories.js",
     "sourceFile": "facebook/memories.js",
@@ -6890,11 +6124,7 @@
         "help": "Number of notifications"
       }
     ],
-    "columns": [
-      "index",
-      "text",
-      "time"
-    ],
+    "columns": ["index", "text", "time"],
     "type": "js",
     "modulePath": "facebook/notifications.js",
     "sourceFile": "facebook/notifications.js",
@@ -6916,13 +6146,7 @@
         "help": "Facebook username or page name"
       }
     ],
-    "columns": [
-      "name",
-      "username",
-      "friends",
-      "followers",
-      "url"
-    ],
+    "columns": ["name", "username", "friends", "followers", "url"],
     "type": "js",
     "modulePath": "facebook/profile.js",
     "sourceFile": "facebook/profile.js",
@@ -6951,12 +6175,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "index",
-      "title",
-      "text",
-      "url"
-    ],
+    "columns": ["index", "title", "text", "url"],
     "type": "js",
     "modulePath": "facebook/search.js",
     "sourceFile": "facebook/search.js",
@@ -6992,9 +6211,7 @@
         "help": "Start a new chat first (true/false, default: false)"
       }
     ],
-    "columns": [
-      "response"
-    ],
+    "columns": ["response"],
     "timeout": 180,
     "type": "js",
     "modulePath": "gemini/ask.js",
@@ -7036,10 +6253,7 @@
         "help": "Override confirm button label (default: Start research)"
       }
     ],
-    "columns": [
-      "status",
-      "url"
-    ],
+    "columns": ["status", "url"],
     "timeout": 180,
     "type": "js",
     "modulePath": "gemini/deep-research.js",
@@ -7067,10 +6281,7 @@
         "default": "contains",
         "required": false,
         "help": "Match mode",
-        "choices": [
-          "contains",
-          "exact"
-        ]
+        "choices": ["contains", "exact"]
       },
       {
         "name": "timeout",
@@ -7080,9 +6291,7 @@
         "help": "Max seconds to wait for Docs export (default: 120)"
       }
     ],
-    "columns": [
-      "response"
-    ],
+    "columns": ["response"],
     "type": "js",
     "modulePath": "gemini/deep-research-result.js",
     "sourceFile": "gemini/deep-research-result.js",
@@ -7132,11 +6341,7 @@
         "help": "Skip download shorthand; only show Gemini page link"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "link"
-    ],
+    "columns": ["status", "file", "link"],
     "timeout": 240,
     "type": "js",
     "modulePath": "gemini/image.js",
@@ -7151,10 +6356,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Action"
-    ],
+    "columns": ["Status", "Action"],
     "type": "js",
     "modulePath": "gemini/new.js",
     "sourceFile": "gemini/new.js",
@@ -7183,14 +6385,7 @@
         "help": "Number of results (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "language",
-      "stars",
-      "description",
-      "url"
-    ],
+    "columns": ["rank", "name", "language", "stars", "description", "url"],
     "type": "js",
     "modulePath": "gitee/search.js",
     "sourceFile": "gitee/search.js"
@@ -7211,12 +6406,7 @@
         "help": "Number of projects (max 50)"
       }
     ],
-    "columns": [
-      "name",
-      "description",
-      "stars",
-      "url"
-    ],
+    "columns": ["name", "description", "stars", "url"],
     "type": "js",
     "modulePath": "gitee/trending.js",
     "sourceFile": "gitee/trending.js"
@@ -7237,10 +6427,7 @@
         "help": "Gitee username"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "gitee/user.js",
     "sourceFile": "gitee/user.js"
@@ -7281,12 +6468,7 @@
         "help": "Region code (e.g. US, CN)"
       }
     ],
-    "columns": [
-      "title",
-      "source",
-      "date",
-      "url"
-    ],
+    "columns": ["title", "source", "date", "url"],
     "type": "js",
     "modulePath": "google/news.js",
     "sourceFile": "google/news.js"
@@ -7321,12 +6503,7 @@
         "help": "Language short code (e.g. en, zh)"
       }
     ],
-    "columns": [
-      "type",
-      "title",
-      "url",
-      "snippet"
-    ],
+    "columns": ["type", "title", "url", "snippet"],
     "type": "js",
     "modulePath": "google/search.js",
     "sourceFile": "google/search.js"
@@ -7353,9 +6530,7 @@
         "help": "Language code"
       }
     ],
-    "columns": [
-      "suggestion"
-    ],
+    "columns": ["suggestion"],
     "type": "js",
     "modulePath": "google/suggest.js",
     "sourceFile": "google/suggest.js"
@@ -7382,11 +6557,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "title",
-      "traffic",
-      "date"
-    ],
+    "columns": ["title", "traffic", "date"],
     "type": "js",
     "modulePath": "google/trends.js",
     "sourceFile": "google/trends.js"
@@ -7414,15 +6585,7 @@
         "help": "返回结果数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "authors",
-      "source",
-      "year",
-      "cited",
-      "url"
-    ],
+    "columns": ["rank", "title", "authors", "source", "year", "cited", "url"],
     "type": "js",
     "modulePath": "google-scholar/search.js",
     "sourceFile": "google-scholar/search.js",
@@ -7509,13 +6672,7 @@
         "help": "返回结果数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "date",
-      "source",
-      "url"
-    ],
+    "columns": ["rank", "title", "date", "source", "url"],
     "type": "js",
     "modulePath": "gov-policy/recent.js",
     "sourceFile": "gov-policy/recent.js",
@@ -7544,13 +6701,7 @@
         "help": "返回结果数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "description",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "description", "date", "url"],
     "type": "js",
     "modulePath": "gov-policy/search.js",
     "sourceFile": "gov-policy/search.js",
@@ -7593,9 +6744,7 @@
         "help": "Use the explicit grok.com consumer web flow (default: false)"
       }
     ],
-    "columns": [
-      "response"
-    ],
+    "columns": ["response"],
     "type": "js",
     "modulePath": "grok/ask.js",
     "sourceFile": "grok/ask.js",
@@ -7617,13 +6766,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments"],
     "type": "js",
     "modulePath": "hackernews/ask.js",
     "sourceFile": "hackernews/ask.js"
@@ -7644,13 +6787,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments"],
     "type": "js",
     "modulePath": "hackernews/best.js",
     "sourceFile": "hackernews/best.js"
@@ -7671,12 +6808,7 @@
         "help": "Number of job postings"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "url"],
     "type": "js",
     "modulePath": "hackernews/jobs.js",
     "sourceFile": "hackernews/jobs.js"
@@ -7697,13 +6829,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments"],
     "type": "js",
     "modulePath": "hackernews/new.js",
     "sourceFile": "hackernews/new.js"
@@ -7736,20 +6862,10 @@
         "default": "relevance",
         "required": false,
         "help": "Sort by relevance or date",
-        "choices": [
-          "relevance",
-          "date"
-        ]
+        "choices": ["relevance", "date"]
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments", "url"],
     "type": "js",
     "modulePath": "hackernews/search.js",
     "sourceFile": "hackernews/search.js"
@@ -7770,13 +6886,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments"],
     "type": "js",
     "modulePath": "hackernews/show.js",
     "sourceFile": "hackernews/show.js"
@@ -7797,13 +6907,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments"],
     "type": "js",
     "modulePath": "hackernews/top.js",
     "sourceFile": "hackernews/top.js"
@@ -7824,12 +6928,7 @@
         "help": "HN username"
       }
     ],
-    "columns": [
-      "username",
-      "karma",
-      "created",
-      "about"
-    ],
+    "columns": ["username", "karma", "created", "about"],
     "type": "js",
     "modulePath": "hackernews/user.js",
     "sourceFile": "hackernews/user.js"
@@ -7868,11 +6967,7 @@
         "default": "daily",
         "required": false,
         "help": "Time period: daily, weekly, or monthly",
-        "choices": [
-          "daily",
-          "weekly",
-          "monthly"
-        ]
+        "choices": ["daily", "weekly", "monthly"]
       }
     ],
     "type": "js",
@@ -7902,14 +6997,7 @@
         "help": "是否包含热门回复"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "content",
-      "replies",
-      "lights",
-      "url"
-    ],
+    "columns": ["title", "author", "content", "replies", "lights", "url"],
     "type": "js",
     "modulePath": "hupu/detail.js",
     "sourceFile": "hupu/detail.js",
@@ -7931,11 +7019,7 @@
         "help": "Number of hot posts"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "url"
-    ],
+    "columns": ["rank", "title", "url"],
     "type": "js",
     "modulePath": "hupu/hot.js",
     "sourceFile": "hupu/hot.js",
@@ -7970,10 +7054,7 @@
         "help": "板块ID（如278汽车区）"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "hupu/like.js",
     "sourceFile": "hupu/like.js",
@@ -7982,9 +7063,7 @@
   {
     "site": "hupu",
     "name": "mentions",
-    "aliases": [
-      "mention"
-    ],
+    "aliases": ["mention"],
     "description": "查看虎扑提到我的回复 (需要登录)",
     "domain": "my.hupu.com",
     "strategy": "cookie",
@@ -8059,10 +7138,7 @@
         "help": "被引用回复的 pid；填写后会以“回复某条热门回复”的方式发言"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "hupu/reply.js",
     "sourceFile": "hupu/reply.js",
@@ -8111,15 +7187,7 @@
         "help": "排序方式: general/createtime/replytime/light/reply"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "replies",
-      "lights",
-      "forum",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "replies", "lights", "forum", "url"],
     "type": "js",
     "modulePath": "hupu/search.js",
     "sourceFile": "hupu/search.js",
@@ -8154,10 +7222,7 @@
         "help": "板块ID（如278汽车区）"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "hupu/unlike.js",
     "sourceFile": "hupu/unlike.js",
@@ -8186,10 +7251,7 @@
         "help": "Max filmography entries"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "imdb/person.js",
     "sourceFile": "imdb/person.js"
@@ -8217,14 +7279,7 @@
         "help": "Number of reviews"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "rating",
-      "author",
-      "date",
-      "text"
-    ],
+    "columns": ["rank", "title", "rating", "author", "date", "text"],
     "type": "js",
     "modulePath": "imdb/reviews.js",
     "sourceFile": "imdb/reviews.js"
@@ -8252,14 +7307,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "id",
-      "title",
-      "year",
-      "type",
-      "url"
-    ],
+    "columns": ["rank", "id", "title", "year", "type", "url"],
     "type": "js",
     "modulePath": "imdb/search.js",
     "sourceFile": "imdb/search.js"
@@ -8280,10 +7328,7 @@
         "help": "IMDb title ID (tt1375666) or URL"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "imdb/title.js",
     "sourceFile": "imdb/title.js"
@@ -8304,14 +7349,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "rating",
-      "votes",
-      "genre",
-      "url"
-    ],
+    "columns": ["rank", "title", "rating", "votes", "genre", "url"],
     "type": "js",
     "modulePath": "imdb/top.js",
     "sourceFile": "imdb/top.js"
@@ -8332,13 +7370,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "rating",
-      "genre",
-      "url"
-    ],
+    "columns": ["rank", "title", "rating", "genre", "url"],
     "type": "js",
     "modulePath": "imdb/trending.js",
     "sourceFile": "imdb/trending.js"
@@ -8373,11 +7405,7 @@
         "help": "Post index (1 = most recent)"
       }
     ],
-    "columns": [
-      "status",
-      "user",
-      "text"
-    ],
+    "columns": ["status", "user", "text"],
     "type": "js",
     "modulePath": "instagram/comment.js",
     "sourceFile": "instagram/comment.js",
@@ -8427,14 +7455,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "rank",
-      "user",
-      "caption",
-      "likes",
-      "comments",
-      "type"
-    ],
+    "columns": ["rank", "user", "caption", "likes", "comments", "type"],
     "type": "js",
     "modulePath": "instagram/explore.js",
     "sourceFile": "instagram/explore.js",
@@ -8456,10 +7477,7 @@
         "help": "Instagram username to follow"
       }
     ],
-    "columns": [
-      "status",
-      "username"
-    ],
+    "columns": ["status", "username"],
     "type": "js",
     "modulePath": "instagram/follow.js",
     "sourceFile": "instagram/follow.js",
@@ -8488,13 +7506,7 @@
         "help": "Number of followers"
       }
     ],
-    "columns": [
-      "rank",
-      "username",
-      "name",
-      "verified",
-      "private"
-    ],
+    "columns": ["rank", "username", "name", "verified", "private"],
     "type": "js",
     "modulePath": "instagram/followers.js",
     "sourceFile": "instagram/followers.js",
@@ -8523,13 +7535,7 @@
         "help": "Number of accounts"
       }
     ],
-    "columns": [
-      "rank",
-      "username",
-      "name",
-      "verified",
-      "private"
-    ],
+    "columns": ["rank", "username", "name", "verified", "private"],
     "type": "js",
     "modulePath": "instagram/following.js",
     "sourceFile": "instagram/following.js",
@@ -8558,11 +7564,7 @@
         "help": "Post index (1 = most recent)"
       }
     ],
-    "columns": [
-      "status",
-      "user",
-      "post"
-    ],
+    "columns": ["status", "user", "post"],
     "type": "js",
     "modulePath": "instagram/like.js",
     "sourceFile": "instagram/like.js",
@@ -8584,11 +7586,7 @@
         "help": "Note text (max 60 characters)"
       }
     ],
-    "columns": [
-      "status",
-      "detail",
-      "noteId"
-    ],
+    "columns": ["status", "detail", "noteId"],
     "timeout": 120,
     "type": "js",
     "modulePath": "instagram/note.js",
@@ -8618,11 +7616,7 @@
         "help": "Caption text"
       }
     ],
-    "columns": [
-      "status",
-      "detail",
-      "url"
-    ],
+    "columns": ["status", "detail", "url"],
     "timeout": 300,
     "type": "js",
     "modulePath": "instagram/post.js",
@@ -8682,11 +7676,7 @@
         "help": "Caption text"
       }
     ],
-    "columns": [
-      "status",
-      "detail",
-      "url"
-    ],
+    "columns": ["status", "detail", "url"],
     "timeout": 600,
     "type": "js",
     "modulePath": "instagram/reel.js",
@@ -8716,11 +7706,7 @@
         "help": "Post index (1 = most recent)"
       }
     ],
-    "columns": [
-      "status",
-      "user",
-      "post"
-    ],
+    "columns": ["status", "user", "post"],
     "type": "js",
     "modulePath": "instagram/save.js",
     "sourceFile": "instagram/save.js",
@@ -8742,14 +7728,7 @@
         "help": "Number of saved posts"
       }
     ],
-    "columns": [
-      "index",
-      "user",
-      "caption",
-      "likes",
-      "comments",
-      "type"
-    ],
+    "columns": ["index", "user", "caption", "likes", "comments", "type"],
     "type": "js",
     "modulePath": "instagram/saved.js",
     "sourceFile": "instagram/saved.js",
@@ -8778,14 +7757,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "username",
-      "name",
-      "verified",
-      "private",
-      "url"
-    ],
+    "columns": ["rank", "username", "name", "verified", "private", "url"],
     "type": "js",
     "modulePath": "instagram/search.js",
     "sourceFile": "instagram/search.js",
@@ -8807,11 +7779,7 @@
         "help": "Path to a single story image or video file"
       }
     ],
-    "columns": [
-      "status",
-      "detail",
-      "url"
-    ],
+    "columns": ["status", "detail", "url"],
     "timeout": 300,
     "type": "js",
     "modulePath": "instagram/story.js",
@@ -8834,10 +7802,7 @@
         "help": "Instagram username to unfollow"
       }
     ],
-    "columns": [
-      "status",
-      "username"
-    ],
+    "columns": ["status", "username"],
     "type": "js",
     "modulePath": "instagram/unfollow.js",
     "sourceFile": "instagram/unfollow.js",
@@ -8866,11 +7831,7 @@
         "help": "Post index (1 = most recent)"
       }
     ],
-    "columns": [
-      "status",
-      "user",
-      "post"
-    ],
+    "columns": ["status", "user", "post"],
     "type": "js",
     "modulePath": "instagram/unlike.js",
     "sourceFile": "instagram/unlike.js",
@@ -8899,11 +7860,7 @@
         "help": "Post index (1 = most recent)"
       }
     ],
-    "columns": [
-      "status",
-      "user",
-      "post"
-    ],
+    "columns": ["status", "user", "post"],
     "type": "js",
     "modulePath": "instagram/unsave.js",
     "sourceFile": "instagram/unsave.js",
@@ -8932,14 +7889,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "index",
-      "caption",
-      "likes",
-      "comments",
-      "type",
-      "date"
-    ],
+    "columns": ["index", "caption", "likes", "comments", "type", "date"],
     "type": "js",
     "modulePath": "instagram/user.js",
     "sourceFile": "instagram/user.js",
@@ -8975,12 +7925,7 @@
         "help": "仅预览，不实际加入购物车"
       }
     ],
-    "columns": [
-      "status",
-      "title",
-      "price",
-      "sku"
-    ],
+    "columns": ["status", "title", "price", "sku"],
     "type": "js",
     "modulePath": "jd/add-cart.js",
     "sourceFile": "jd/add-cart.js",
@@ -8994,13 +7939,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "index",
-      "title",
-      "price",
-      "quantity",
-      "sku"
-    ],
+    "columns": ["index", "title", "price", "quantity", "sku"],
     "type": "js",
     "modulePath": "jd/cart.js",
     "sourceFile": "jd/cart.js",
@@ -9022,10 +7961,7 @@
         "help": "商品 SKU ID"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "jd/detail.js",
     "sourceFile": "jd/detail.js",
@@ -9054,13 +7990,7 @@
         "help": "AVIF 图片数量上限（默认10）"
       }
     ],
-    "columns": [
-      "title",
-      "price",
-      "shop",
-      "specs",
-      "avifImages"
-    ],
+    "columns": ["title", "price", "shop", "specs", "avifImages"],
     "type": "js",
     "modulePath": "jd/item.js",
     "sourceFile": "jd/item.js",
@@ -9089,12 +8019,7 @@
         "help": "返回评价数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "user",
-      "content",
-      "date"
-    ],
+    "columns": ["rank", "user", "content", "date"],
     "type": "js",
     "modulePath": "jd/reviews.js",
     "sourceFile": "jd/reviews.js",
@@ -9123,14 +8048,7 @@
         "help": "返回结果数量 (max 30)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "price",
-      "shop",
-      "sku",
-      "url"
-    ],
+    "columns": ["rank", "title", "price", "shop", "sku", "url"],
     "type": "js",
     "modulePath": "jd/search.js",
     "sourceFile": "jd/search.js",
@@ -9239,10 +8157,7 @@
         "help": "评论内容"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "jike/comment.js",
     "sourceFile": "jike/comment.js",
@@ -9264,10 +8179,7 @@
         "help": "动态正文内容"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "jike/create.js",
     "sourceFile": "jike/create.js",
@@ -9289,14 +8201,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "author",
-      "content",
-      "likes",
-      "comments",
-      "time",
-      "url"
-    ],
+    "columns": ["author", "content", "likes", "comments", "time", "url"],
     "type": "js",
     "modulePath": "jike/feed.js",
     "sourceFile": "jike/feed.js",
@@ -9318,10 +8223,7 @@
         "help": "帖子 ID"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "jike/like.js",
     "sourceFile": "jike/like.js",
@@ -9343,12 +8245,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "type",
-      "user",
-      "content",
-      "time"
-    ],
+    "columns": ["type", "user", "content", "time"],
     "type": "js",
     "modulePath": "jike/notifications.js",
     "sourceFile": "jike/notifications.js",
@@ -9370,13 +8267,7 @@
         "help": "Post ID (from post URL)"
       }
     ],
-    "columns": [
-      "type",
-      "author",
-      "content",
-      "likes",
-      "time"
-    ],
+    "columns": ["type", "author", "content", "likes", "time"],
     "type": "js",
     "modulePath": "jike/post.js",
     "sourceFile": "jike/post.js",
@@ -9405,10 +8296,7 @@
         "help": "转发附言（可选）"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "jike/repost.js",
     "sourceFile": "jike/repost.js",
@@ -9437,14 +8325,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "author",
-      "content",
-      "likes",
-      "comments",
-      "time",
-      "url"
-    ],
+    "columns": ["author", "content", "likes", "comments", "time", "url"],
     "type": "js",
     "modulePath": "jike/search.js",
     "sourceFile": "jike/search.js",
@@ -9473,14 +8354,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "content",
-      "author",
-      "likes",
-      "comments",
-      "time",
-      "url"
-    ],
+    "columns": ["content", "author", "likes", "comments", "time", "url"],
     "type": "js",
     "modulePath": "jike/topic.js",
     "sourceFile": "jike/topic.js",
@@ -9509,14 +8383,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "content",
-      "type",
-      "likes",
-      "comments",
-      "time",
-      "url"
-    ],
+    "columns": ["content", "type", "likes", "comments", "time", "url"],
     "type": "js",
     "modulePath": "jike/user.js",
     "sourceFile": "jike/user.js",
@@ -9552,12 +8419,7 @@
         "help": "等待生成完成的秒数"
       }
     ],
-    "columns": [
-      "status",
-      "prompt",
-      "image_count",
-      "image_urls"
-    ],
+    "columns": ["status", "prompt", "image_count", "image_urls"],
     "type": "js",
     "modulePath": "jimeng/generate.js",
     "sourceFile": "jimeng/generate.js",
@@ -9579,13 +8441,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "prompt",
-      "model",
-      "status",
-      "image_url",
-      "created_at"
-    ],
+    "columns": ["prompt", "model", "status", "image_url", "created_at"],
     "type": "js",
     "modulePath": "jimeng/history.js",
     "sourceFile": "jimeng/history.js",
@@ -9599,10 +8455,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "workspace_id",
-      "workspace_url"
-    ],
+    "columns": ["workspace_id", "workspace_url"],
     "type": "js",
     "modulePath": "jimeng/new.js",
     "sourceFile": "jimeng/new.js",
@@ -9616,12 +8469,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "workspace_id",
-      "name",
-      "is_pinned",
-      "updated_at"
-    ],
+    "columns": ["workspace_id", "name", "is_pinned", "updated_at"],
     "type": "js",
     "modulePath": "jimeng/workspaces.js",
     "sourceFile": "jimeng/workspaces.js",
@@ -9761,13 +8609,7 @@
         "help": "返回数量"
       }
     ],
-    "columns": [
-      "name",
-      "district",
-      "avg_price",
-      "year",
-      "on_sale"
-    ],
+    "columns": ["name", "district", "avg_price", "year", "on_sale"],
     "type": "js",
     "modulePath": "ke/xiaoqu.js",
     "sourceFile": "ke/xiaoqu.js",
@@ -9814,14 +8656,7 @@
         "help": "返回数量"
       }
     ],
-    "columns": [
-      "title",
-      "community",
-      "area",
-      "layout",
-      "price",
-      "url"
-    ],
+    "columns": ["title", "community", "area", "layout", "price", "url"],
     "type": "js",
     "modulePath": "ke/zufang.js",
     "sourceFile": "ke/zufang.js",
@@ -9850,12 +8685,7 @@
         "help": "Number of comments"
       }
     ],
-    "columns": [
-      "rank",
-      "score",
-      "author",
-      "text"
-    ],
+    "columns": ["rank", "score", "author", "text"],
     "type": "js",
     "modulePath": "lesswrong/comments.js",
     "sourceFile": "lesswrong/comments.js"
@@ -9876,14 +8706,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/curated.js",
     "sourceFile": "lesswrong/curated.js"
@@ -9904,14 +8727,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/frontpage.js",
     "sourceFile": "lesswrong/frontpage.js"
@@ -9932,14 +8748,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/new.js",
     "sourceFile": "lesswrong/new.js"
@@ -9989,11 +8798,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author"
-    ],
+    "columns": ["rank", "title", "author"],
     "type": "js",
     "modulePath": "lesswrong/sequences.js",
     "sourceFile": "lesswrong/sequences.js"
@@ -10014,14 +8819,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/shortform.js",
     "sourceFile": "lesswrong/shortform.js"
@@ -10049,14 +8847,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/tag.js",
     "sourceFile": "lesswrong/tag.js"
@@ -10077,11 +8868,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "posts"
-    ],
+    "columns": ["rank", "name", "posts"],
     "type": "js",
     "modulePath": "lesswrong/tags.js",
     "sourceFile": "lesswrong/tags.js"
@@ -10102,14 +8889,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/top.js",
     "sourceFile": "lesswrong/top.js"
@@ -10130,14 +8910,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/top-month.js",
     "sourceFile": "lesswrong/top-month.js"
@@ -10158,14 +8931,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/top-week.js",
     "sourceFile": "lesswrong/top-week.js"
@@ -10186,14 +8952,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "karma",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "karma", "comments", "url"],
     "type": "js",
     "modulePath": "lesswrong/top-year.js",
     "sourceFile": "lesswrong/top-year.js"
@@ -10214,10 +8973,7 @@
         "help": "LessWrong username or slug"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "lesswrong/user.js",
     "sourceFile": "lesswrong/user.js"
@@ -10245,14 +9001,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "karma",
-      "comments",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "title", "karma", "comments", "date", "url"],
     "type": "js",
     "modulePath": "lesswrong/user-posts.js",
     "sourceFile": "lesswrong/user-posts.js"
@@ -10399,13 +9148,7 @@
         "help": "Number of categories"
       }
     ],
-    "columns": [
-      "name",
-      "slug",
-      "id",
-      "topics",
-      "description"
-    ],
+    "columns": ["name", "slug", "id", "topics", "description"],
     "type": "js",
     "modulePath": "linux-do/categories.js",
     "sourceFile": "linux-do/categories.js",
@@ -10441,14 +9184,7 @@
         "help": "Number of items (per_page)"
       }
     ],
-    "columns": [
-      "title",
-      "replies",
-      "created",
-      "likes",
-      "views",
-      "url"
-    ],
+    "columns": ["title", "replies", "created", "likes", "views", "url"],
     "deprecated": "opencli linux-do category is kept for backward compatibility.",
     "replacedBy": "opencli linux-do feed --category <id-or-name>",
     "type": "js",
@@ -10470,11 +9206,7 @@
         "default": "latest",
         "required": false,
         "help": "View type",
-        "choices": [
-          "latest",
-          "hot",
-          "top"
-        ]
+        "choices": ["latest", "hot", "top"]
       },
       {
         "name": "tag",
@@ -10525,24 +9257,10 @@
         "type": "str",
         "required": false,
         "help": "Time period (only for --view top)",
-        "choices": [
-          "all",
-          "daily",
-          "weekly",
-          "monthly",
-          "quarterly",
-          "yearly"
-        ]
+        "choices": ["all", "daily", "weekly", "monthly", "quarterly", "yearly"]
       }
     ],
-    "columns": [
-      "title",
-      "replies",
-      "created",
-      "likes",
-      "views",
-      "url"
-    ],
+    "columns": ["title", "replies", "created", "likes", "views", "url"],
     "type": "js",
     "modulePath": "linux-do/categories.js",
     "sourceFile": "linux-do/categories.js",
@@ -10569,24 +9287,10 @@
         "default": "weekly",
         "required": false,
         "help": "Time period",
-        "choices": [
-          "all",
-          "daily",
-          "weekly",
-          "monthly",
-          "quarterly",
-          "yearly"
-        ]
+        "choices": ["all", "daily", "weekly", "monthly", "quarterly", "yearly"]
       }
     ],
-    "columns": [
-      "title",
-      "replies",
-      "created",
-      "likes",
-      "views",
-      "url"
-    ],
+    "columns": ["title", "replies", "created", "likes", "views", "url"],
     "deprecated": "opencli linux-do hot is kept for backward compatibility.",
     "replacedBy": "opencli linux-do feed --view top --period <period>",
     "type": "js",
@@ -10610,14 +9314,7 @@
         "help": "Number of items (per_page)"
       }
     ],
-    "columns": [
-      "title",
-      "replies",
-      "created",
-      "likes",
-      "views",
-      "url"
-    ],
+    "columns": ["title", "replies", "created", "likes", "views", "url"],
     "deprecated": "opencli linux-do latest is kept for backward compatibility.",
     "replacedBy": "opencli linux-do feed --view latest",
     "type": "js",
@@ -10648,14 +9345,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "views",
-      "likes",
-      "replies",
-      "url"
-    ],
+    "columns": ["rank", "title", "views", "likes", "replies", "url"],
     "type": "js",
     "modulePath": "linux-do/search.js",
     "sourceFile": "linux-do/search.js",
@@ -10677,12 +9367,7 @@
         "help": "Number of tags"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "count",
-      "url"
-    ],
+    "columns": ["rank", "name", "count", "url"],
     "type": "js",
     "modulePath": "linux-do/tags.js",
     "sourceFile": "linux-do/tags.js",
@@ -10711,12 +9396,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "author",
-      "content",
-      "likes",
-      "created_at"
-    ],
+    "columns": ["author", "content", "likes", "created_at"],
     "type": "js",
     "modulePath": "linux-do/topic.js",
     "sourceFile": "linux-do/topic.js",
@@ -10738,9 +9418,7 @@
         "help": "Topic ID"
       }
     ],
-    "columns": [
-      "content"
-    ],
+    "columns": ["content"],
     "type": "js",
     "modulePath": "linux-do/topic-content.js",
     "sourceFile": "linux-do/topic-content.js",
@@ -10769,14 +9447,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "index",
-      "topic_user",
-      "topic",
-      "reply",
-      "time",
-      "url"
-    ],
+    "columns": ["index", "topic_user", "topic", "reply", "time", "url"],
     "type": "js",
     "modulePath": "linux-do/user-posts.js",
     "sourceFile": "linux-do/user-posts.js",
@@ -10835,14 +9506,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments", "tags"],
     "type": "js",
     "modulePath": "lobsters/active.js",
     "sourceFile": "lobsters/active.js"
@@ -10863,14 +9527,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments", "tags"],
     "type": "js",
     "modulePath": "lobsters/hot.js",
     "sourceFile": "lobsters/hot.js"
@@ -10891,14 +9548,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments", "tags"],
     "type": "js",
     "modulePath": "lobsters/newest.js",
     "sourceFile": "lobsters/newest.js"
@@ -10926,14 +9576,7 @@
         "help": "Number of stories"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "score",
-      "author",
-      "comments",
-      "tags"
-    ],
+    "columns": ["rank", "title", "score", "author", "comments", "tags"],
     "type": "js",
     "modulePath": "lobsters/tag.js",
     "sourceFile": "lobsters/tag.js"
@@ -11084,14 +9727,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "readTime",
-      "claps"
-    ],
+    "columns": ["rank", "title", "author", "date", "readTime", "claps"],
     "type": "js",
     "modulePath": "medium/feed.js",
     "sourceFile": "medium/feed.js",
@@ -11120,15 +9756,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "readTime",
-      "claps",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "readTime", "claps", "url"],
     "type": "js",
     "modulePath": "medium/search.js",
     "sourceFile": "medium/search.js",
@@ -11157,14 +9785,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "date",
-      "readTime",
-      "claps",
-      "url"
-    ],
+    "columns": ["rank", "title", "date", "readTime", "claps", "url"],
     "type": "js",
     "modulePath": "medium/user.js",
     "sourceFile": "medium/user.js",
@@ -11193,9 +9814,7 @@
         "help": "输出格式：md（默认，缩进列表 Markdown，适合导入 Obsidian）或 text（纯文本，适合终端阅读）"
       }
     ],
-    "columns": [
-      "content"
-    ],
+    "columns": ["content"],
     "type": "js",
     "modulePath": "mubu/doc.js",
     "sourceFile": "mubu/doc.js",
@@ -11231,13 +9850,7 @@
         "help": "最多显示条数"
       }
     ],
-    "columns": [
-      "type",
-      "id",
-      "name",
-      "updated",
-      "stared"
-    ],
+    "columns": ["type", "id", "name", "updated", "stared"],
     "type": "js",
     "modulePath": "mubu/docs.js",
     "sourceFile": "mubu/docs.js",
@@ -11296,10 +9909,7 @@
         "help": "输出格式：md（默认，Markdown）或 text（纯文本）"
       }
     ],
-    "columns": [
-      "date",
-      "content"
-    ],
+    "columns": ["date", "content"],
     "type": "js",
     "modulePath": "mubu/notes.js",
     "sourceFile": "mubu/notes.js",
@@ -11321,11 +9931,7 @@
         "help": "最多显示条数"
       }
     ],
-    "columns": [
-      "id",
-      "name",
-      "updated"
-    ],
+    "columns": ["id", "name", "updated"],
     "type": "js",
     "modulePath": "mubu/recent.js",
     "sourceFile": "mubu/recent.js",
@@ -11354,14 +9960,7 @@
         "help": "最多显示条数（默认 100，结果被截断时用 --limit N 调大）"
       }
     ],
-    "columns": [
-      "type",
-      "id",
-      "name",
-      "path",
-      "hits",
-      "snippet"
-    ],
+    "columns": ["type", "id", "name", "path", "hits", "snippet"],
     "type": "js",
     "modulePath": "mubu/search.js",
     "sourceFile": "mubu/search.js",
@@ -11375,12 +9974,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "id",
-      "title",
-      "url",
-      "source"
-    ],
+    "columns": ["id", "title", "url", "source"],
     "type": "js",
     "modulePath": "notebooklm/current.js",
     "sourceFile": "notebooklm/current.js",
@@ -11389,9 +9983,7 @@
   {
     "site": "notebooklm",
     "name": "get",
-    "aliases": [
-      "metadata"
-    ],
+    "aliases": ["metadata"],
     "description": "Get rich metadata for the currently opened NotebookLM notebook",
     "domain": "notebooklm.google.com",
     "strategy": "cookie",
@@ -11441,14 +10033,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "title",
-      "id",
-      "is_owner",
-      "created_at",
-      "source",
-      "url"
-    ],
+    "columns": ["title", "id", "is_owner", "created_at", "source", "url"],
     "type": "js",
     "modulePath": "notebooklm/list.js",
     "sourceFile": "notebooklm/list.js",
@@ -11457,20 +10042,13 @@
   {
     "site": "notebooklm",
     "name": "note-list",
-    "aliases": [
-      "notes-list"
-    ],
+    "aliases": ["notes-list"],
     "description": "List saved notes from the Studio panel of the current NotebookLM notebook",
     "domain": "notebooklm.google.com",
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "title",
-      "created_at",
-      "source",
-      "url"
-    ],
+    "columns": ["title", "created_at", "source", "url"],
     "type": "js",
     "modulePath": "notebooklm/note-list.js",
     "sourceFile": "notebooklm/note-list.js",
@@ -11492,12 +10070,7 @@
         "help": "Note title or id from the current notebook"
       }
     ],
-    "columns": [
-      "title",
-      "content",
-      "source",
-      "url"
-    ],
+    "columns": ["title", "content", "source", "url"],
     "type": "js",
     "modulePath": "notebooklm/notes-get.js",
     "sourceFile": "notebooklm/notes-get.js",
@@ -11506,9 +10079,7 @@
   {
     "site": "notebooklm",
     "name": "open",
-    "aliases": [
-      "select"
-    ],
+    "aliases": ["select"],
     "description": "Open one NotebookLM notebook in the automation workspace by id or URL",
     "domain": "notebooklm.google.com",
     "strategy": "cookie",
@@ -11522,12 +10093,7 @@
         "help": "Notebook id from list output, or a full NotebookLM notebook URL"
       }
     ],
-    "columns": [
-      "id",
-      "title",
-      "url",
-      "source"
-    ],
+    "columns": ["id", "title", "url", "source"],
     "type": "js",
     "modulePath": "notebooklm/open.js",
     "sourceFile": "notebooklm/open.js",
@@ -11549,13 +10115,7 @@
         "help": "Source id or title from the current notebook"
       }
     ],
-    "columns": [
-      "title",
-      "kind",
-      "char_count",
-      "url",
-      "source"
-    ],
+    "columns": ["title", "kind", "char_count", "url", "source"],
     "type": "js",
     "modulePath": "notebooklm/source-fulltext.js",
     "sourceFile": "notebooklm/source-fulltext.js",
@@ -11653,14 +10213,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "status",
-      "login",
-      "page",
-      "url",
-      "title",
-      "notebooks"
-    ],
+    "columns": ["status", "login", "page", "url", "title", "notebooks"],
     "type": "js",
     "modulePath": "notebooklm/status.js",
     "sourceFile": "notebooklm/status.js",
@@ -11674,12 +10227,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "title",
-      "summary",
-      "source",
-      "url"
-    ],
+    "columns": ["title", "summary", "source", "url"],
     "type": "js",
     "modulePath": "notebooklm/summary.js",
     "sourceFile": "notebooklm/summary.js",
@@ -11700,10 +10248,7 @@
         "help": "Output file (default: /tmp/notion-export.md)"
       }
     ],
-    "columns": [
-      "Status",
-      "File"
-    ],
+    "columns": ["Status", "File"],
     "type": "js",
     "modulePath": "notion/export.js",
     "sourceFile": "notion/export.js",
@@ -11717,11 +10262,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Title",
-      "Icon"
-    ],
+    "columns": ["Index", "Title", "Icon"],
     "type": "js",
     "modulePath": "notion/favorites.js",
     "sourceFile": "notion/favorites.js",
@@ -11743,9 +10284,7 @@
         "help": "Page title (optional)"
       }
     ],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "notion/new.js",
     "sourceFile": "notion/new.js",
@@ -11759,10 +10298,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Title",
-      "Content"
-    ],
+    "columns": ["Title", "Content"],
     "type": "js",
     "modulePath": "notion/read.js",
     "sourceFile": "notion/read.js",
@@ -11784,10 +10320,7 @@
         "help": "Search query"
       }
     ],
-    "columns": [
-      "Index",
-      "Title"
-    ],
+    "columns": ["Index", "Title"],
     "type": "js",
     "modulePath": "notion/search.js",
     "sourceFile": "notion/search.js",
@@ -11801,10 +10334,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Index",
-      "Title"
-    ],
+    "columns": ["Index", "Title"],
     "type": "js",
     "modulePath": "notion/sidebar.js",
     "sourceFile": "notion/sidebar.js",
@@ -11818,11 +10348,7 @@
     "strategy": "ui",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Url",
-      "Title"
-    ],
+    "columns": ["Status", "Url", "Title"],
     "type": "js",
     "modulePath": "notion/status.js",
     "sourceFile": "notion/status.js",
@@ -11844,9 +10370,7 @@
         "help": "Text to append to the page"
       }
     ],
-    "columns": [
-      "Status"
-    ],
+    "columns": ["Status"],
     "type": "js",
     "modulePath": "notion/write.js",
     "sourceFile": "notion/write.js",
@@ -11868,11 +10392,7 @@
         "help": "Job ID (11002=Java, 11003=C++, 11200=Backend, 11203=QA, 11201=Frontend)"
       }
     ],
-    "columns": [
-      "rank",
-      "company",
-      "companyId"
-    ],
+    "columns": ["rank", "company", "companyId"],
     "type": "js",
     "modulePath": "nowcoder/companies.js",
     "sourceFile": "nowcoder/companies.js"
@@ -11893,14 +10413,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "nickname",
-      "school",
-      "level",
-      "heat",
-      "tag"
-    ],
+    "columns": ["rank", "nickname", "school", "level", "heat", "tag"],
     "type": "js",
     "modulePath": "nowcoder/creators.js",
     "sourceFile": "nowcoder/creators.js"
@@ -11991,11 +10504,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "heat"
-    ],
+    "columns": ["rank", "title", "heat"],
     "type": "js",
     "modulePath": "nowcoder/hot.js",
     "sourceFile": "nowcoder/hot.js"
@@ -12008,11 +10517,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "id",
-      "career",
-      "learners"
-    ],
+    "columns": ["id", "career", "learners"],
     "type": "js",
     "modulePath": "nowcoder/jobs.js",
     "sourceFile": "nowcoder/jobs.js"
@@ -12025,10 +10530,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "type",
-      "unread"
-    ],
+    "columns": ["type", "unread"],
     "type": "js",
     "modulePath": "nowcoder/notifications.js",
     "sourceFile": "nowcoder/notifications.js",
@@ -12064,12 +10566,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "company",
-      "practitioners"
-    ],
+    "columns": ["rank", "title", "company", "practitioners"],
     "type": "js",
     "modulePath": "nowcoder/papers.js",
     "sourceFile": "nowcoder/papers.js",
@@ -12098,13 +10595,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "category",
-      "subject",
-      "total",
-      "done",
-      "remaining"
-    ],
+    "columns": ["category", "subject", "total", "done", "remaining"],
     "type": "js",
     "modulePath": "nowcoder/practice.js",
     "sourceFile": "nowcoder/practice.js",
@@ -12133,15 +10624,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "likes",
-      "comments",
-      "views",
-      "id"
-    ],
+    "columns": ["rank", "title", "author", "likes", "comments", "views", "id"],
     "type": "js",
     "modulePath": "nowcoder/recommend.js",
     "sourceFile": "nowcoder/recommend.js"
@@ -12252,14 +10735,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "school",
-      "content",
-      "id"
-    ],
+    "columns": ["rank", "title", "author", "school", "content", "id"],
     "type": "js",
     "modulePath": "nowcoder/search.js",
     "sourceFile": "nowcoder/search.js",
@@ -12281,11 +10757,7 @@
         "help": "Search keyword"
       }
     ],
-    "columns": [
-      "rank",
-      "suggestion",
-      "type"
-    ],
+    "columns": ["rank", "suggestion", "type"],
     "type": "js",
     "modulePath": "nowcoder/suggest.js",
     "sourceFile": "nowcoder/suggest.js",
@@ -12307,14 +10779,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "topic",
-      "views",
-      "posts",
-      "heat",
-      "id"
-    ],
+    "columns": ["rank", "topic", "views", "posts", "heat", "id"],
     "type": "js",
     "modulePath": "nowcoder/topics.js",
     "sourceFile": "nowcoder/topics.js"
@@ -12335,12 +10800,7 @@
         "help": "Number of items"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "heat",
-      "id"
-    ],
+    "columns": ["rank", "title", "heat", "id"],
     "type": "js",
     "modulePath": "nowcoder/trending.js",
     "sourceFile": "nowcoder/trending.js"
@@ -12372,12 +10832,7 @@
         "help": "Password (or set ONES_PASSWORD)"
       }
     ],
-    "columns": [
-      "uuid",
-      "name",
-      "email",
-      "token_preview"
-    ],
+    "columns": ["uuid", "name", "email", "token_preview"],
     "type": "js",
     "modulePath": "ones/login.js",
     "sourceFile": "ones/login.js",
@@ -12391,10 +10846,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "ok",
-      "detail"
-    ],
+    "columns": ["ok", "detail"],
     "type": "js",
     "modulePath": "ones/logout.js",
     "sourceFile": "ones/logout.js",
@@ -12408,13 +10860,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "uuid",
-      "name",
-      "email",
-      "phone",
-      "status"
-    ],
+    "columns": ["uuid", "name", "email", "phone", "status"],
     "type": "js",
     "modulePath": "ones/me.js",
     "sourceFile": "ones/me.js",
@@ -12448,22 +10894,10 @@
         "default": "assign",
         "required": false,
         "help": "assign=负责人(顶层 assign)；field004=负责人(筛选器示例里的 field004)；owner=创建者；both=负责人∪创建者(两次 peek 去重)",
-        "choices": [
-          "assign",
-          "field004",
-          "owner",
-          "both"
-        ]
+        "choices": ["assign", "field004", "owner", "both"]
       }
     ],
-    "columns": [
-      "title",
-      "status",
-      "project",
-      "uuid",
-      "updated",
-      "工时"
-    ],
+    "columns": ["title", "status", "project", "uuid", "updated", "工时"],
     "type": "js",
     "modulePath": "ones/my-tasks.js",
     "sourceFile": "ones/my-tasks.js",
@@ -12541,14 +10975,7 @@
         "help": "Max rows after flattening groups (default 30)"
       }
     ],
-    "columns": [
-      "title",
-      "status",
-      "project",
-      "uuid",
-      "updated",
-      "工时"
-    ],
+    "columns": ["title", "status", "project", "uuid", "updated", "工时"],
     "type": "js",
     "modulePath": "ones/tasks.js",
     "sourceFile": "ones/tasks.js",
@@ -12562,13 +10989,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "uuid",
-      "name",
-      "email",
-      "teams",
-      "org_name"
-    ],
+    "columns": ["uuid", "name", "email", "teams", "org_name"],
     "type": "js",
     "modulePath": "ones/token-info.js",
     "sourceFile": "ones/token-info.js",
@@ -12621,13 +11042,7 @@
         "help": "Owner user UUID (defaults to current logged-in user)"
       }
     ],
-    "columns": [
-      "task",
-      "date",
-      "hours",
-      "owner",
-      "endpoint"
-    ],
+    "columns": ["task", "date", "hours", "owner", "endpoint"],
     "type": "js",
     "modulePath": "ones/worklog.js",
     "sourceFile": "ones/worklog.js",
@@ -12659,20 +11074,14 @@
         "type": "str",
         "required": true,
         "help": "Whether the review contains a critical error",
-        "choices": [
-          "yes",
-          "no"
-        ]
+        "choices": ["yes", "no"]
       },
       {
         "name": "actionable-suggestions",
         "type": "str",
         "required": true,
         "help": "Whether the review contains actionable suggestions",
-        "choices": [
-          "yes",
-          "no"
-        ]
+        "choices": ["yes", "no"]
       },
       {
         "name": "additional-comments",
@@ -12836,12 +11245,7 @@
         "help": "Output directory"
       }
     ],
-    "columns": [
-      "index",
-      "type",
-      "status",
-      "size"
-    ],
+    "columns": ["index", "type", "status", "size"],
     "type": "js",
     "modulePath": "pixiv/download.js",
     "sourceFile": "pixiv/download.js",
@@ -12925,14 +11329,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "illust_id",
-      "pages",
-      "bookmarks"
-    ],
+    "columns": ["rank", "title", "author", "illust_id", "pages", "bookmarks"],
     "type": "js",
     "modulePath": "pixiv/ranking.js",
     "sourceFile": "pixiv/ranking.js",
@@ -12980,11 +11377,7 @@
         "default": "all",
         "required": false,
         "help": "Search mode",
-        "choices": [
-          "all",
-          "safe",
-          "r18"
-        ]
+        "choices": ["all", "safe", "r18"]
       },
       {
         "name": "page",
@@ -13099,13 +11492,7 @@
         "help": "Number of results (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "tagline",
-      "reviews",
-      "url"
-    ],
+    "columns": ["rank", "name", "tagline", "reviews", "url"],
     "type": "js",
     "modulePath": "producthunt/browse.js",
     "sourceFile": "producthunt/browse.js",
@@ -13127,12 +11514,7 @@
         "help": "Number of results (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "votes",
-      "url"
-    ],
+    "columns": ["rank", "name", "votes", "url"],
     "type": "js",
     "modulePath": "producthunt/hot.js",
     "sourceFile": "producthunt/hot.js",
@@ -13161,14 +11543,7 @@
         "help": "Category filter: ai-agents, ai-coding-agents, ai-code-editors, ai-chatbots, ai-workflow-automation, vibe-coding, developer-tools, productivity, design-creative, marketing-sales, no-code-platforms, llms, finance, social-community, engineering-development"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "tagline",
-      "author",
-      "date",
-      "url"
-    ],
+    "columns": ["rank", "name", "tagline", "author", "date", "url"],
     "type": "js",
     "modulePath": "producthunt/posts.js",
     "sourceFile": "producthunt/posts.js"
@@ -13189,13 +11564,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "tagline",
-      "author",
-      "url"
-    ],
+    "columns": ["rank", "name", "tagline", "author", "url"],
     "type": "js",
     "modulePath": "producthunt/today.js",
     "sourceFile": "producthunt/today.js"
@@ -13231,13 +11600,7 @@
         "help": "Show directories only"
       }
     ],
-    "columns": [
-      "name",
-      "is_dir",
-      "size",
-      "fid",
-      "path"
-    ],
+    "columns": ["name", "is_dir", "size", "fid", "path"],
     "type": "js",
     "modulePath": "quark/ls.js",
     "sourceFile": "quark/ls.js",
@@ -13475,10 +11838,7 @@
         "help": "Comment text"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "reddit/comment.js",
     "sourceFile": "reddit/comment.js",
@@ -13500,14 +11860,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "subreddit",
-      "author",
-      "upvotes",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "subreddit", "author", "upvotes", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/frontpage.js",
     "sourceFile": "reddit/frontpage.js",
@@ -13536,13 +11889,7 @@
         "help": "Number of posts"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "subreddit",
-      "score",
-      "comments"
-    ],
+    "columns": ["rank", "title", "subreddit", "score", "comments"],
     "type": "js",
     "modulePath": "reddit/hot.js",
     "sourceFile": "reddit/hot.js",
@@ -13564,14 +11911,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "subreddit",
-      "score",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "subreddit", "score", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/popular.js",
     "sourceFile": "reddit/popular.js",
@@ -13628,12 +11968,7 @@
         "help": "Max characters per comment body (min 100)"
       }
     ],
-    "columns": [
-      "type",
-      "author",
-      "score",
-      "text"
-    ],
+    "columns": ["type", "author", "score", "text"],
     "type": "js",
     "modulePath": "reddit/read.js",
     "sourceFile": "reddit/read.js",
@@ -13662,10 +11997,7 @@
         "help": "Unsave instead of save"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "reddit/save.js",
     "sourceFile": "reddit/save.js",
@@ -13687,13 +12019,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "subreddit",
-      "score",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "subreddit", "score", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/saved.js",
     "sourceFile": "reddit/saved.js",
@@ -13743,14 +12069,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "subreddit",
-      "author",
-      "score",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "subreddit", "author", "score", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/search.js",
     "sourceFile": "reddit/search.js",
@@ -13793,13 +12112,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "upvotes",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "author", "upvotes", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/subreddit.js",
     "sourceFile": "reddit/subreddit.js",
@@ -13828,10 +12141,7 @@
         "help": "Unsubscribe instead of subscribe"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "reddit/subscribe.js",
     "sourceFile": "reddit/subscribe.js",
@@ -13860,10 +12170,7 @@
         "help": "Vote direction: up, down, none"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "reddit/upvote.js",
     "sourceFile": "reddit/upvote.js",
@@ -13885,13 +12192,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "subreddit",
-      "score",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "subreddit", "score", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/upvoted.js",
     "sourceFile": "reddit/upvoted.js",
@@ -13913,10 +12214,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "reddit/user.js",
     "sourceFile": "reddit/user.js",
@@ -13945,12 +12243,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "subreddit",
-      "score",
-      "body",
-      "url"
-    ],
+    "columns": ["subreddit", "score", "body", "url"],
     "type": "js",
     "modulePath": "reddit/user-comments.js",
     "sourceFile": "reddit/user-comments.js",
@@ -13979,13 +12272,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "title",
-      "subreddit",
-      "score",
-      "comments",
-      "url"
-    ],
+    "columns": ["title", "subreddit", "score", "comments", "url"],
     "type": "js",
     "modulePath": "reddit/user-posts.js",
     "sourceFile": "reddit/user-posts.js",
@@ -14014,13 +12301,7 @@
         "help": "Number of results (max 40)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "date",
-      "section",
-      "url"
-    ],
+    "columns": ["rank", "title", "date", "section", "url"],
     "type": "js",
     "modulePath": "reuters/search.js",
     "sourceFile": "reuters/search.js",
@@ -14071,14 +12352,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "readCount",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "readCount", "url"],
     "type": "js",
     "modulePath": "sinablog/hot.js",
     "sourceFile": "sinablog/hot.js",
@@ -14107,14 +12381,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "description",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "description", "url"],
     "type": "js",
     "modulePath": "sinablog/search.js",
     "sourceFile": "sinablog/search.js"
@@ -14142,14 +12409,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "readCount",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "readCount", "url"],
     "type": "js",
     "modulePath": "sinablog/user.js",
     "sourceFile": "sinablog/user.js",
@@ -14178,12 +12438,7 @@
         "help": "News type: 0=全部 1=A股 2=宏观 3=公司 4=数据 5=市场 6=国际 7=观点 8=央行 9=其它"
       }
     ],
-    "columns": [
-      "id",
-      "time",
-      "content",
-      "views"
-    ],
+    "columns": ["id", "time", "content", "views"],
     "type": "js",
     "modulePath": "sinafinance/news.js",
     "sourceFile": "sinafinance/news.js"
@@ -14196,12 +12451,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "column",
-      "title",
-      "date",
-      "url"
-    ],
+    "columns": ["column", "title", "date", "url"],
     "type": "js",
     "modulePath": "sinafinance/rolling-news.js",
     "sourceFile": "sinafinance/rolling-news.js",
@@ -14260,24 +12510,10 @@
         "default": "cn",
         "required": false,
         "help": "Market: cn (A股), hk (港股), us (美股), wh (外汇), ft (期货)",
-        "choices": [
-          "cn",
-          "hk",
-          "us",
-          "wh",
-          "ft"
-        ]
+        "choices": ["cn", "hk", "us", "wh", "ft"]
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "symbol",
-      "market",
-      "price",
-      "change",
-      "url"
-    ],
+    "columns": ["rank", "name", "symbol", "market", "price", "change", "url"],
     "type": "js",
     "modulePath": "sinafinance/stock-rank.js",
     "sourceFile": "sinafinance/stock-rank.js",
@@ -14306,14 +12542,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "price",
-      "mall",
-      "comments",
-      "url"
-    ],
+    "columns": ["rank", "title", "price", "mall", "comments", "url"],
     "type": "js",
     "modulePath": "smzdm/search.js",
     "sourceFile": "smzdm/search.js",
@@ -14326,9 +12555,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14340,9 +12567,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14354,9 +12579,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14377,11 +12600,7 @@
         "help": "Track or artist to play (optional)"
       }
     ],
-    "columns": [
-      "track",
-      "artist",
-      "status"
-    ],
+    "columns": ["track", "artist", "status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14393,9 +12612,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "status"
-    ],
+    "columns": ["status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14415,11 +12632,7 @@
         "help": "Track to add to queue"
       }
     ],
-    "columns": [
-      "track",
-      "artist",
-      "status"
-    ],
+    "columns": ["track", "artist", "status"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14438,16 +12651,10 @@
         "required": false,
         "positional": true,
         "help": "off / track / context",
-        "choices": [
-          "off",
-          "track",
-          "context"
-        ]
+        "choices": ["off", "track", "context"]
       }
     ],
-    "columns": [
-      "repeat"
-    ],
+    "columns": ["repeat"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14474,12 +12681,7 @@
         "help": "Number of results (default: 10)"
       }
     ],
-    "columns": [
-      "track",
-      "artist",
-      "album",
-      "uri"
-    ],
+    "columns": ["track", "artist", "album", "uri"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14498,15 +12700,10 @@
         "required": false,
         "positional": true,
         "help": "on or off",
-        "choices": [
-          "on",
-          "off"
-        ]
+        "choices": ["on", "off"]
       }
     ],
-    "columns": [
-      "shuffle"
-    ],
+    "columns": ["shuffle"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14518,13 +12715,7 @@
     "strategy": "public",
     "browser": false,
     "args": [],
-    "columns": [
-      "track",
-      "artist",
-      "album",
-      "status",
-      "progress"
-    ],
+    "columns": ["track", "artist", "album", "status", "progress"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14545,9 +12736,7 @@
         "help": "Volume 0–100"
       }
     ],
-    "columns": [
-      "volume"
-    ],
+    "columns": ["volume"],
     "type": "js",
     "modulePath": "spotify/spotify.js",
     "sourceFile": "spotify/spotify.js"
@@ -14568,13 +12757,7 @@
         "help": "Max number of results"
       }
     ],
-    "columns": [
-      "bounty",
-      "title",
-      "score",
-      "answers",
-      "url"
-    ],
+    "columns": ["bounty", "title", "score", "answers", "url"],
     "type": "js",
     "modulePath": "stackoverflow/bounties.js",
     "sourceFile": "stackoverflow/bounties.js"
@@ -14595,12 +12778,7 @@
         "help": "Max number of results"
       }
     ],
-    "columns": [
-      "title",
-      "score",
-      "answers",
-      "url"
-    ],
+    "columns": ["title", "score", "answers", "url"],
     "type": "js",
     "modulePath": "stackoverflow/hot.js",
     "sourceFile": "stackoverflow/hot.js"
@@ -14628,12 +12806,7 @@
         "help": "Max number of results"
       }
     ],
-    "columns": [
-      "title",
-      "score",
-      "answers",
-      "url"
-    ],
+    "columns": ["title", "score", "answers", "url"],
     "type": "js",
     "modulePath": "stackoverflow/search.js",
     "sourceFile": "stackoverflow/search.js"
@@ -14654,12 +12827,7 @@
         "help": "Max number of results"
       }
     ],
-    "columns": [
-      "title",
-      "score",
-      "answers",
-      "url"
-    ],
+    "columns": ["title", "score", "answers", "url"],
     "type": "js",
     "modulePath": "stackoverflow/unanswered.js",
     "sourceFile": "stackoverflow/unanswered.js"
@@ -14680,13 +12848,7 @@
         "help": "Number of games"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "price",
-      "discount",
-      "url"
-    ],
+    "columns": ["rank", "name", "price", "discount", "url"],
     "type": "js",
     "modulePath": "steam/top-sellers.js",
     "sourceFile": "steam/top-sellers.js"
@@ -14714,14 +12876,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "readTime",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "readTime", "url"],
     "type": "js",
     "modulePath": "substack/feed.js",
     "sourceFile": "substack/feed.js",
@@ -14750,13 +12905,7 @@
         "help": "返回的文章数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "date",
-      "description",
-      "url"
-    ],
+    "columns": ["rank", "title", "date", "description", "url"],
     "type": "js",
     "modulePath": "substack/publication.js",
     "sourceFile": "substack/publication.js",
@@ -14783,10 +12932,7 @@
         "default": "posts",
         "required": false,
         "help": "搜索类型（posts=文章, publications=Newsletter）",
-        "choices": [
-          "posts",
-          "publications"
-        ]
+        "choices": ["posts", "publications"]
       },
       {
         "name": "limit",
@@ -14796,14 +12942,7 @@
         "help": "返回结果数量"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "date",
-      "description",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "date", "description", "url"],
     "type": "js",
     "modulePath": "substack/search.js",
     "sourceFile": "substack/search.js"
@@ -14837,13 +12976,7 @@
         "help": "仅预览，不实际加入购物车"
       }
     ],
-    "columns": [
-      "status",
-      "title",
-      "price",
-      "selected_spec",
-      "item_id"
-    ],
+    "columns": ["status", "title", "price", "selected_spec", "item_id"],
     "type": "js",
     "modulePath": "taobao/add-cart.js",
     "sourceFile": "taobao/add-cart.js",
@@ -14865,13 +12998,7 @@
         "help": "返回数量 (max 50)"
       }
     ],
-    "columns": [
-      "index",
-      "title",
-      "price",
-      "spec",
-      "shop"
-    ],
+    "columns": ["index", "title", "price", "spec", "shop"],
     "type": "js",
     "modulePath": "taobao/cart.js",
     "sourceFile": "taobao/cart.js",
@@ -14893,10 +13020,7 @@
         "help": "商品 ID"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "taobao/detail.js",
     "sourceFile": "taobao/detail.js",
@@ -14925,13 +13049,7 @@
         "help": "返回评价数量 (max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "user",
-      "content",
-      "date",
-      "spec"
-    ],
+    "columns": ["rank", "user", "content", "date", "spec"],
     "type": "js",
     "modulePath": "taobao/reviews.js",
     "sourceFile": "taobao/reviews.js",
@@ -14958,11 +13076,7 @@
         "default": "default",
         "required": false,
         "help": "排序 (default/sale销量/price价格)",
-        "choices": [
-          "default",
-          "sale",
-          "price"
-        ]
+        "choices": ["default", "sale", "price"]
       },
       {
         "name": "limit",
@@ -15003,14 +13117,7 @@
         "help": "返回数量"
       }
     ],
-    "columns": [
-      "rank",
-      "symbol",
-      "name",
-      "changePercent",
-      "heat",
-      "tags"
-    ],
+    "columns": ["rank", "symbol", "name", "changePercent", "heat", "tags"],
     "type": "js",
     "modulePath": "tdx/hot-rank.js",
     "sourceFile": "tdx/hot-rank.js",
@@ -15032,13 +13139,7 @@
         "help": "返回数量"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "changePercent",
-      "heat",
-      "tags"
-    ],
+    "columns": ["rank", "name", "changePercent", "heat", "tags"],
     "type": "js",
     "modulePath": "ths/hot-rank.js",
     "sourceFile": "ths/hot-rank.js",
@@ -15060,12 +13161,7 @@
         "help": "Number of items to return"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "discussions",
-      "description"
-    ],
+    "columns": ["rank", "title", "discussions", "description"],
     "type": "js",
     "modulePath": "tieba/hot.js",
     "sourceFile": "tieba/hot.js",
@@ -15101,12 +13197,7 @@
         "help": "Number of items to return"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "replies"
-    ],
+    "columns": ["rank", "title", "author", "replies"],
     "type": "js",
     "modulePath": "tieba/posts.js",
     "sourceFile": "tieba/posts.js",
@@ -15142,12 +13233,7 @@
         "help": "Number of replies to return"
       }
     ],
-    "columns": [
-      "floor",
-      "author",
-      "content",
-      "time"
-    ],
+    "columns": ["floor", "author", "content", "time"],
     "type": "js",
     "modulePath": "tieba/read.js",
     "sourceFile": "tieba/read.js",
@@ -15174,9 +13260,7 @@
         "default": 1,
         "required": false,
         "help": "Page number (currently only 1 is supported)",
-        "choices": [
-          "1"
-        ]
+        "choices": ["1"]
       },
       {
         "name": "limit",
@@ -15186,13 +13270,7 @@
         "help": "Number of items to return"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "forum",
-      "author",
-      "time"
-    ],
+    "columns": ["rank", "title", "forum", "author", "time"],
     "type": "js",
     "modulePath": "tieba/search.js",
     "sourceFile": "tieba/search.js",
@@ -15221,11 +13299,7 @@
         "help": "Comment text"
       }
     ],
-    "columns": [
-      "status",
-      "url",
-      "text"
-    ],
+    "columns": ["status", "url", "text"],
     "type": "js",
     "modulePath": "tiktok/comment.js",
     "sourceFile": "tiktok/comment.js",
@@ -15247,12 +13321,7 @@
         "help": "Number of videos"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "views",
-      "url"
-    ],
+    "columns": ["rank", "author", "views", "url"],
     "type": "js",
     "modulePath": "tiktok/explore.js",
     "sourceFile": "tiktok/explore.js",
@@ -15274,10 +13343,7 @@
         "help": "TikTok username (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "username"
-    ],
+    "columns": ["status", "username"],
     "type": "js",
     "modulePath": "tiktok/follow.js",
     "sourceFile": "tiktok/follow.js",
@@ -15299,11 +13365,7 @@
         "help": "Number of accounts"
       }
     ],
-    "columns": [
-      "index",
-      "username",
-      "name"
-    ],
+    "columns": ["index", "username", "name"],
     "type": "js",
     "modulePath": "tiktok/following.js",
     "sourceFile": "tiktok/following.js",
@@ -15325,11 +13387,7 @@
         "help": "Number of suggestions"
       }
     ],
-    "columns": [
-      "index",
-      "username",
-      "name"
-    ],
+    "columns": ["index", "username", "name"],
     "type": "js",
     "modulePath": "tiktok/friends.js",
     "sourceFile": "tiktok/friends.js",
@@ -15351,11 +13409,7 @@
         "help": "TikTok video URL"
       }
     ],
-    "columns": [
-      "status",
-      "likes",
-      "url"
-    ],
+    "columns": ["status", "likes", "url"],
     "type": "js",
     "modulePath": "tiktok/like.js",
     "sourceFile": "tiktok/like.js",
@@ -15377,12 +13431,7 @@
         "help": "Number of streams"
       }
     ],
-    "columns": [
-      "index",
-      "streamer",
-      "viewers",
-      "url"
-    ],
+    "columns": ["index", "streamer", "viewers", "url"],
     "type": "js",
     "modulePath": "tiktok/live.js",
     "sourceFile": "tiktok/live.js",
@@ -15409,19 +13458,10 @@
         "default": "all",
         "required": false,
         "help": "Notification type",
-        "choices": [
-          "all",
-          "likes",
-          "comments",
-          "mentions",
-          "followers"
-        ]
+        "choices": ["all", "likes", "comments", "mentions", "followers"]
       }
     ],
-    "columns": [
-      "index",
-      "text"
-    ],
+    "columns": ["index", "text"],
     "type": "js",
     "modulePath": "tiktok/notifications.js",
     "sourceFile": "tiktok/notifications.js",
@@ -15474,10 +13514,7 @@
         "help": "TikTok video URL"
       }
     ],
-    "columns": [
-      "status",
-      "url"
-    ],
+    "columns": ["status", "url"],
     "type": "js",
     "modulePath": "tiktok/save.js",
     "sourceFile": "tiktok/save.js",
@@ -15537,10 +13574,7 @@
         "help": "TikTok username (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "username"
-    ],
+    "columns": ["status", "username"],
     "type": "js",
     "modulePath": "tiktok/unfollow.js",
     "sourceFile": "tiktok/unfollow.js",
@@ -15562,11 +13596,7 @@
         "help": "TikTok video URL"
       }
     ],
-    "columns": [
-      "status",
-      "likes",
-      "url"
-    ],
+    "columns": ["status", "likes", "url"],
     "type": "js",
     "modulePath": "tiktok/unlike.js",
     "sourceFile": "tiktok/unlike.js",
@@ -15588,10 +13618,7 @@
         "help": "TikTok video URL"
       }
     ],
-    "columns": [
-      "status",
-      "url"
-    ],
+    "columns": ["status", "url"],
     "type": "js",
     "modulePath": "tiktok/unsave.js",
     "sourceFile": "tiktok/unsave.js",
@@ -15620,11 +13647,7 @@
         "help": "Number of videos"
       }
     ],
-    "columns": [
-      "index",
-      "views",
-      "url"
-    ],
+    "columns": ["index", "views", "url"],
     "type": "js",
     "modulePath": "tiktok/user.js",
     "sourceFile": "tiktok/user.js",
@@ -15646,15 +13669,7 @@
         "help": "页码 (1-4)"
       }
     ],
-    "columns": [
-      "title",
-      "date",
-      "status",
-      "展现",
-      "阅读",
-      "点赞",
-      "评论"
-    ],
+    "columns": ["title", "date", "status", "展现", "阅读", "点赞", "评论"],
     "type": "js",
     "modulePath": "toutiao/articles.js",
     "sourceFile": "toutiao/articles.js",
@@ -15683,12 +13698,7 @@
         "help": "Maximum number of requests to accept (default: 20)"
       }
     ],
-    "columns": [
-      "index",
-      "status",
-      "user",
-      "message"
-    ],
+    "columns": ["index", "status", "user", "message"],
     "timeout": 600,
     "type": "js",
     "modulePath": "twitter/accept.js",
@@ -15711,12 +13721,7 @@
         "help": "Tweet ID or URL containing the article"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "content",
-      "url"
-    ],
+    "columns": ["title", "author", "content", "url"],
     "type": "js",
     "modulePath": "twitter/article.js",
     "sourceFile": "twitter/article.js",
@@ -15738,10 +13743,7 @@
         "help": "Twitter screen name (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/block.js",
     "sourceFile": "twitter/block.js",
@@ -15763,10 +13765,7 @@
         "help": "Tweet URL to bookmark"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/bookmark.js",
     "sourceFile": "twitter/bookmark.js",
@@ -15788,14 +13787,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "author",
-      "text",
-      "likes",
-      "retweets",
-      "bookmarks",
-      "url"
-    ],
+    "columns": ["author", "text", "likes", "retweets", "bookmarks", "url"],
     "type": "js",
     "modulePath": "twitter/bookmarks.js",
     "sourceFile": "twitter/bookmarks.js",
@@ -15817,10 +13809,7 @@
         "help": "The URL of the tweet to delete"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/delete.js",
     "sourceFile": "twitter/delete.js",
@@ -15862,12 +13851,7 @@
         "help": "Output directory"
       }
     ],
-    "columns": [
-      "index",
-      "type",
-      "status",
-      "size"
-    ],
+    "columns": ["index", "type", "status", "size"],
     "type": "js",
     "modulePath": "twitter/download.js",
     "sourceFile": "twitter/download.js",
@@ -15889,10 +13873,7 @@
         "help": "Twitter screen name (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/follow.js",
     "sourceFile": "twitter/follow.js",
@@ -15921,12 +13902,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "screen_name",
-      "name",
-      "bio",
-      "followers"
-    ],
+    "columns": ["screen_name", "name", "bio", "followers"],
     "type": "js",
     "modulePath": "twitter/followers.js",
     "sourceFile": "twitter/followers.js",
@@ -15955,12 +13931,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "screen_name",
-      "name",
-      "bio",
-      "followers"
-    ],
+    "columns": ["screen_name", "name", "bio", "followers"],
     "type": "js",
     "modulePath": "twitter/following.js",
     "sourceFile": "twitter/following.js",
@@ -15982,10 +13953,7 @@
         "help": "The URL of the reply tweet to hide"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/hide-reply.js",
     "sourceFile": "twitter/hide-reply.js",
@@ -16007,10 +13975,7 @@
         "help": "The URL of the tweet to like"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/like.js",
     "sourceFile": "twitter/like.js",
@@ -16076,13 +14041,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "listId",
-      "username",
-      "userId",
-      "status",
-      "message"
-    ],
+    "columns": ["listId", "username", "userId", "status", "message"],
     "type": "js",
     "modulePath": "twitter/list-add.js",
     "sourceFile": "twitter/list-add.js",
@@ -16111,13 +14070,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "listId",
-      "username",
-      "userId",
-      "status",
-      "message"
-    ],
+    "columns": ["listId", "username", "userId", "status", "message"],
     "type": "js",
     "modulePath": "twitter/list-remove.js",
     "sourceFile": "twitter/list-remove.js",
@@ -16177,13 +14130,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "id",
-      "name",
-      "members",
-      "followers",
-      "mode"
-    ],
+    "columns": ["id", "name", "members", "followers", "mode"],
     "type": "js",
     "modulePath": "twitter/lists.js",
     "sourceFile": "twitter/lists.js",
@@ -16205,13 +14152,7 @@
         "help": ""
       }
     ],
-    "columns": [
-      "id",
-      "action",
-      "author",
-      "text",
-      "url"
-    ],
+    "columns": ["id", "action", "author", "text", "url"],
     "type": "js",
     "modulePath": "twitter/notifications.js",
     "sourceFile": "twitter/notifications.js",
@@ -16239,11 +14180,7 @@
         "help": "Image paths, comma-separated, max 4 (jpg/png/gif/webp)"
       }
     ],
-    "columns": [
-      "status",
-      "message",
-      "text"
-    ],
+    "columns": ["status", "message", "text"],
     "type": "js",
     "modulePath": "twitter/post.js",
     "sourceFile": "twitter/post.js",
@@ -16318,11 +14255,7 @@
         "help": "Optional remote image URL to download and attach to the reply"
       }
     ],
-    "columns": [
-      "status",
-      "message",
-      "text"
-    ],
+    "columns": ["status", "message", "text"],
     "type": "js",
     "modulePath": "twitter/reply.js",
     "sourceFile": "twitter/reply.js",
@@ -16358,12 +14291,7 @@
         "help": "Skip conversations where you already sent the same text (default: true)"
       }
     ],
-    "columns": [
-      "index",
-      "status",
-      "user",
-      "message"
-    ],
+    "columns": ["index", "status", "user", "message"],
     "timeout": 600,
     "type": "js",
     "modulePath": "twitter/reply-dm.js",
@@ -16391,10 +14319,7 @@
         "default": "top",
         "required": false,
         "help": "",
-        "choices": [
-          "top",
-          "live"
-        ]
+        "choices": ["top", "live"]
       },
       {
         "name": "limit",
@@ -16472,10 +14397,7 @@
         "default": "for-you",
         "required": false,
         "help": "Timeline type: for-you (algorithmic) or following (chronological)",
-        "choices": [
-          "for-you",
-          "following"
-        ]
+        "choices": ["for-you", "following"]
       },
       {
         "name": "limit",
@@ -16519,12 +14441,7 @@
         "help": "Number of trends to show"
       }
     ],
-    "columns": [
-      "rank",
-      "topic",
-      "tweets",
-      "category"
-    ],
+    "columns": ["rank", "topic", "tweets", "category"],
     "type": "js",
     "modulePath": "twitter/trending.js",
     "sourceFile": "twitter/trending.js",
@@ -16587,10 +14504,7 @@
         "help": "Twitter screen name (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/unblock.js",
     "sourceFile": "twitter/unblock.js",
@@ -16612,10 +14526,7 @@
         "help": "Tweet URL to unbookmark"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/unbookmark.js",
     "sourceFile": "twitter/unbookmark.js",
@@ -16637,10 +14548,7 @@
         "help": "Twitter screen name (without @)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "twitter/unfollow.js",
     "sourceFile": "twitter/unfollow.js",
@@ -16666,21 +14574,10 @@
         "type": "str",
         "required": true,
         "help": "Code target to export",
-        "choices": [
-          "html",
-          "css",
-          "react",
-          "vue"
-        ]
+        "choices": ["html", "css", "react", "vue"]
       }
     ],
-    "columns": [
-      "target",
-      "username",
-      "slug",
-      "language",
-      "length"
-    ],
+    "columns": ["target", "username", "slug", "language", "length"],
     "type": "js",
     "modulePath": "uiverse/code.js",
     "sourceFile": "uiverse/code.js"
@@ -16714,13 +14611,7 @@
         "help": "Extra padding around the captured preview in pixels"
       }
     ],
-    "columns": [
-      "username",
-      "slug",
-      "width",
-      "height",
-      "output"
-    ],
+    "columns": ["username", "slug", "width", "height", "output"],
     "type": "js",
     "modulePath": "uiverse/preview.js",
     "sourceFile": "uiverse/preview.js"
@@ -16733,10 +14624,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "v2ex/daily.js",
     "sourceFile": "v2ex/daily.js",
@@ -16758,14 +14646,7 @@
         "help": "Number of topics"
       }
     ],
-    "columns": [
-      "id",
-      "rank",
-      "title",
-      "node",
-      "replies",
-      "url"
-    ],
+    "columns": ["id", "rank", "title", "node", "replies", "url"],
     "type": "js",
     "modulePath": "v2ex/hot.js",
     "sourceFile": "v2ex/hot.js"
@@ -16786,14 +14667,7 @@
         "help": "Number of topics"
       }
     ],
-    "columns": [
-      "id",
-      "rank",
-      "title",
-      "node",
-      "replies",
-      "url"
-    ],
+    "columns": ["id", "rank", "title", "node", "replies", "url"],
     "type": "js",
     "modulePath": "v2ex/latest.js",
     "sourceFile": "v2ex/latest.js"
@@ -16868,13 +14742,7 @@
         "help": "Number of topics (API returns max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "replies",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "replies", "url"],
     "type": "js",
     "modulePath": "v2ex/node.js",
     "sourceFile": "v2ex/node.js"
@@ -16895,13 +14763,7 @@
         "help": "Number of nodes"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "title",
-      "topics",
-      "stars"
-    ],
+    "columns": ["rank", "name", "title", "topics", "stars"],
     "type": "js",
     "modulePath": "v2ex/nodes.js",
     "sourceFile": "v2ex/nodes.js"
@@ -16922,11 +14784,7 @@
         "help": "Number of notifications"
       }
     ],
-    "columns": [
-      "type",
-      "content",
-      "time"
-    ],
+    "columns": ["type", "content", "time"],
     "type": "js",
     "modulePath": "v2ex/notifications.js",
     "sourceFile": "v2ex/notifications.js",
@@ -16955,11 +14813,7 @@
         "help": "Number of replies"
       }
     ],
-    "columns": [
-      "floor",
-      "author",
-      "content"
-    ],
+    "columns": ["floor", "author", "content"],
     "type": "js",
     "modulePath": "v2ex/replies.js",
     "sourceFile": "v2ex/replies.js"
@@ -17017,13 +14871,7 @@
         "help": "Number of topics (API returns max 20)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "node",
-      "replies",
-      "url"
-    ],
+    "columns": ["rank", "title", "node", "replies", "url"],
     "type": "js",
     "modulePath": "v2ex/user.js",
     "sourceFile": "v2ex/user.js"
@@ -17108,14 +14956,7 @@
         "help": "Print markdown to stdout instead of saving to a file"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "publish_time",
-      "status",
-      "size",
-      "saved"
-    ],
+    "columns": ["title", "author", "publish_time", "status", "size", "saved"],
     "type": "js",
     "modulePath": "web/read.js",
     "sourceFile": "web/read.js",
@@ -17144,14 +14985,7 @@
         "help": "Number of comments (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "text",
-      "likes",
-      "replies",
-      "time"
-    ],
+    "columns": ["rank", "author", "text", "likes", "replies", "time"],
     "type": "js",
     "modulePath": "weibo/comments.js",
     "sourceFile": "weibo/comments.js",
@@ -17171,10 +15005,7 @@
         "default": "for-you",
         "required": false,
         "help": "Timeline type: for-you (algorithmic) or following (chronological)",
-        "choices": [
-          "for-you",
-          "following"
-        ]
+        "choices": ["for-you", "following"]
       },
       {
         "name": "limit",
@@ -17214,14 +15045,7 @@
         "help": "Number of items (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "word",
-      "hot_value",
-      "category",
-      "label",
-      "url"
-    ],
+    "columns": ["rank", "word", "hot_value", "category", "label", "url"],
     "type": "js",
     "modulePath": "weibo/hot.js",
     "sourceFile": "weibo/hot.js",
@@ -17265,10 +15089,7 @@
         "help": "Post ID (numeric idstr or mblogid from URL)"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "weibo/post.js",
     "sourceFile": "weibo/post.js",
@@ -17297,13 +15118,7 @@
         "help": "Number of results (max 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "time",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "time", "url"],
     "type": "js",
     "modulePath": "weibo/search.js",
     "sourceFile": "weibo/search.js",
@@ -17381,10 +15196,7 @@
         "help": "文章摘要"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "timeout": 180,
     "type": "js",
     "modulePath": "weixin/create-draft.js",
@@ -17420,14 +15232,7 @@
         "help": "Download images locally"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "publish_time",
-      "status",
-      "size",
-      "saved"
-    ],
+    "columns": ["title", "author", "publish_time", "status", "size", "saved"],
     "type": "js",
     "modulePath": "weixin/download.js",
     "sourceFile": "weixin/download.js",
@@ -17449,11 +15254,7 @@
         "help": "最多显示条数"
       }
     ],
-    "columns": [
-      "Index",
-      "Title",
-      "Time"
-    ],
+    "columns": ["Index", "Title", "Time"],
     "timeout": 60,
     "type": "js",
     "modulePath": "weixin/drafts.js",
@@ -17518,14 +15319,7 @@
         "help": "Book ID from search or shelf results"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "publisher",
-      "intro",
-      "category",
-      "rating"
-    ],
+    "columns": ["title", "author", "publisher", "intro", "category", "rating"],
     "type": "js",
     "modulePath": "weread/book.js",
     "sourceFile": "weread/book.js",
@@ -17554,11 +15348,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "chapter",
-      "text",
-      "createTime"
-    ],
+    "columns": ["chapter", "text", "createTime"],
     "type": "js",
     "modulePath": "weread/highlights.js",
     "sourceFile": "weread/highlights.js",
@@ -17572,12 +15362,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "title",
-      "author",
-      "noteCount",
-      "bookId"
-    ],
+    "columns": ["title", "author", "noteCount", "bookId"],
     "type": "js",
     "modulePath": "weread/notebooks.js",
     "sourceFile": "weread/notebooks.js",
@@ -17606,12 +15391,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "chapter",
-      "text",
-      "review",
-      "createTime"
-    ],
+    "columns": ["chapter", "text", "review", "createTime"],
     "type": "js",
     "modulePath": "weread/notes.js",
     "sourceFile": "weread/notes.js",
@@ -17676,13 +15456,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "bookId",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "bookId", "url"],
     "type": "js",
     "modulePath": "weread/search.js",
     "sourceFile": "weread/search.js"
@@ -17703,12 +15477,7 @@
         "help": "Max results"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "progress",
-      "bookId"
-    ],
+    "columns": ["title", "author", "progress", "bookId"],
     "type": "js",
     "modulePath": "weread/shelf.js",
     "sourceFile": "weread/shelf.js",
@@ -17729,12 +15498,7 @@
         "help": "Language code (e.g. en, zh, ja)"
       }
     ],
-    "columns": [
-      "title",
-      "description",
-      "extract",
-      "url"
-    ],
+    "columns": ["title", "description", "extract", "url"],
     "type": "js",
     "modulePath": "wikipedia/random.js",
     "sourceFile": "wikipedia/random.js"
@@ -17768,11 +15532,7 @@
         "help": "Language code (e.g. en, zh, ja)"
       }
     ],
-    "columns": [
-      "title",
-      "snippet",
-      "url"
-    ],
+    "columns": ["title", "snippet", "url"],
     "type": "js",
     "modulePath": "wikipedia/search.js",
     "sourceFile": "wikipedia/search.js"
@@ -17799,12 +15559,7 @@
         "help": "Language code (e.g. en, zh, ja)"
       }
     ],
-    "columns": [
-      "title",
-      "description",
-      "extract",
-      "url"
-    ],
+    "columns": ["title", "description", "extract", "url"],
     "type": "js",
     "modulePath": "wikipedia/summary.js",
     "sourceFile": "wikipedia/summary.js"
@@ -17831,12 +15586,7 @@
         "help": "Language code (e.g. en, zh, ja)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "description",
-      "views"
-    ],
+    "columns": ["rank", "title", "description", "views"],
     "type": "js",
     "modulePath": "wikipedia/trending.js",
     "sourceFile": "wikipedia/trending.js"
@@ -17999,11 +15749,7 @@
         "help": "页面 URL"
       }
     ],
-    "columns": [
-      "title",
-      "content_length",
-      "image_count"
-    ],
+    "columns": ["title", "content_length", "image_count"],
     "type": "js",
     "modulePath": "xiaoe/content.js",
     "sourceFile": "xiaoe/content.js",
@@ -18017,11 +15763,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "title",
-      "shop",
-      "url"
-    ],
+    "columns": ["title", "shop", "url"],
     "type": "js",
     "modulePath": "xiaoe/courses.js",
     "sourceFile": "xiaoe/courses.js",
@@ -18043,13 +15785,7 @@
         "help": "课程页面 URL"
       }
     ],
-    "columns": [
-      "name",
-      "price",
-      "original_price",
-      "user_count",
-      "shop_name"
-    ],
+    "columns": ["name", "price", "original_price", "user_count", "shop_name"],
     "type": "js",
     "modulePath": "xiaoe/detail.js",
     "sourceFile": "xiaoe/detail.js",
@@ -18071,13 +15807,7 @@
         "help": "小节页面 URL"
       }
     ],
-    "columns": [
-      "title",
-      "resource_id",
-      "m3u8_url",
-      "duration_sec",
-      "method"
-    ],
+    "columns": ["title", "resource_id", "m3u8_url", "duration_sec", "method"],
     "type": "js",
     "modulePath": "xiaoe/play-url.js",
     "sourceFile": "xiaoe/play-url.js",
@@ -18143,12 +15873,7 @@
         "help": "Note ID (from creator-notes or note-detail page URL)"
       }
     ],
-    "columns": [
-      "section",
-      "metric",
-      "value",
-      "extra"
-    ],
+    "columns": ["section", "metric", "value", "extra"],
     "type": "js",
     "modulePath": "xiaohongshu/creator-note-detail.js",
     "sourceFile": "xiaohongshu/creator-note-detail.js",
@@ -18231,10 +15956,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "xiaohongshu/creator-profile.js",
     "sourceFile": "xiaohongshu/creator-profile.js",
@@ -18254,17 +15976,10 @@
         "default": "seven",
         "required": false,
         "help": "Stats period: seven or thirty",
-        "choices": [
-          "seven",
-          "thirty"
-        ]
+        "choices": ["seven", "thirty"]
       }
     ],
-    "columns": [
-      "metric",
-      "total",
-      "trend"
-    ],
+    "columns": ["metric", "total", "trend"],
     "type": "js",
     "modulePath": "xiaohongshu/creator-stats.js",
     "sourceFile": "xiaohongshu/creator-stats.js",
@@ -18293,12 +16008,7 @@
         "help": "Output directory"
       }
     ],
-    "columns": [
-      "index",
-      "type",
-      "status",
-      "size"
-    ],
+    "columns": ["index", "type", "status", "size"],
     "type": "js",
     "modulePath": "xiaohongshu/download.js",
     "sourceFile": "xiaohongshu/download.js",
@@ -18320,13 +16030,7 @@
         "help": "Number of items to return"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "likes",
-      "type",
-      "url"
-    ],
+    "columns": ["title", "author", "likes", "type", "url"],
     "type": "js",
     "modulePath": "xiaohongshu/feed.js",
     "sourceFile": "xiaohongshu/feed.js",
@@ -18348,10 +16052,7 @@
         "help": "Full Xiaohongshu note URL with xsec_token"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "xiaohongshu/note.js",
     "sourceFile": "xiaohongshu/note.js",
@@ -18380,14 +16081,7 @@
         "help": "Number of notifications to return"
       }
     ],
-    "columns": [
-      "rank",
-      "user",
-      "action",
-      "content",
-      "note",
-      "time"
-    ],
+    "columns": ["rank", "user", "action", "content", "note", "time"],
     "type": "js",
     "modulePath": "xiaohongshu/notifications.js",
     "sourceFile": "xiaohongshu/notifications.js",
@@ -18434,10 +16128,7 @@
         "help": "保存为草稿，不直接发布"
       }
     ],
-    "columns": [
-      "status",
-      "detail"
-    ],
+    "columns": ["status", "detail"],
     "type": "js",
     "modulePath": "xiaohongshu/publish.js",
     "sourceFile": "xiaohongshu/publish.js",
@@ -18466,14 +16157,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "author",
-      "likes",
-      "published_at",
-      "url"
-    ],
+    "columns": ["rank", "title", "author", "likes", "published_at", "url"],
     "type": "js",
     "modulePath": "xiaohongshu/search.js",
     "sourceFile": "xiaohongshu/search.js",
@@ -18502,13 +16186,7 @@
         "help": "Number of notes to return"
       }
     ],
-    "columns": [
-      "id",
-      "title",
-      "type",
-      "likes",
-      "url"
-    ],
+    "columns": ["id", "title", "type", "likes", "url"],
     "type": "js",
     "modulePath": "xiaohongshu/user.js",
     "sourceFile": "xiaohongshu/user.js",
@@ -18537,13 +16215,7 @@
         "help": "Output directory"
       }
     ],
-    "columns": [
-      "title",
-      "podcast",
-      "status",
-      "size",
-      "file"
-    ],
+    "columns": ["title", "podcast", "status", "size", "file"],
     "type": "js",
     "modulePath": "xiaoyuzhou/download.js",
     "sourceFile": "xiaoyuzhou/download.js"
@@ -18628,13 +16300,7 @@
         "help": "Max episodes to show"
       }
     ],
-    "columns": [
-      "eid",
-      "title",
-      "duration",
-      "plays",
-      "date"
-    ],
+    "columns": ["eid", "title", "duration", "plays", "date"],
     "type": "js",
     "modulePath": "xiaoyuzhou/podcast-episodes.js",
     "sourceFile": "xiaoyuzhou/podcast-episodes.js"
@@ -18755,11 +16421,7 @@
         "help": "返回数量，默认 10"
       }
     ],
-    "columns": [
-      "date",
-      "report",
-      "status"
-    ],
+    "columns": ["date", "report", "status"],
     "type": "js",
     "modulePath": "xueqiu/earnings-date.js",
     "sourceFile": "xueqiu/earnings-date.js",
@@ -18788,13 +16450,7 @@
         "help": "每页数量，默认 20"
       }
     ],
-    "columns": [
-      "author",
-      "text",
-      "likes",
-      "replies",
-      "url"
-    ],
+    "columns": ["author", "text", "likes", "replies", "url"],
     "type": "js",
     "modulePath": "xueqiu/feed.js",
     "sourceFile": "xueqiu/feed.js",
@@ -18860,11 +16516,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "pid",
-      "name",
-      "count"
-    ],
+    "columns": ["pid", "name", "count"],
     "type": "js",
     "modulePath": "xueqiu/groups.js",
     "sourceFile": "xueqiu/groups.js",
@@ -18886,13 +16538,7 @@
         "help": "返回数量，默认 20，最大 50"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "text",
-      "likes",
-      "url"
-    ],
+    "columns": ["rank", "author", "text", "likes", "url"],
     "type": "js",
     "modulePath": "xueqiu/hot.js",
     "sourceFile": "xueqiu/hot.js",
@@ -18921,14 +16567,7 @@
         "help": "榜单类型 10=人气榜(默认) 12=关注榜"
       }
     ],
-    "columns": [
-      "rank",
-      "symbol",
-      "name",
-      "price",
-      "changePercent",
-      "heat"
-    ],
+    "columns": ["rank", "symbol", "name", "price", "changePercent", "heat"],
     "type": "js",
     "modulePath": "xueqiu/hot-stock.js",
     "sourceFile": "xueqiu/hot-stock.js",
@@ -18957,14 +16596,7 @@
         "help": "回溯天数（默认14天）"
       }
     ],
-    "columns": [
-      "date",
-      "open",
-      "high",
-      "low",
-      "close",
-      "volume"
-    ],
+    "columns": ["date", "open", "high", "low", "close", "volume"],
     "type": "js",
     "modulePath": "xueqiu/kline.js",
     "sourceFile": "xueqiu/kline.js",
@@ -18993,14 +16625,7 @@
         "help": "返回数量，默认 10"
       }
     ],
-    "columns": [
-      "symbol",
-      "name",
-      "exchange",
-      "price",
-      "changePercent",
-      "url"
-    ],
+    "columns": ["symbol", "name", "exchange", "price", "changePercent", "url"],
     "type": "js",
     "modulePath": "xueqiu/search.js",
     "sourceFile": "xueqiu/search.js",
@@ -19022,13 +16647,7 @@
         "help": "股票代码，如 SH600519、SZ000858、AAPL、00700"
       }
     ],
-    "columns": [
-      "name",
-      "symbol",
-      "price",
-      "changePercent",
-      "marketCap"
-    ],
+    "columns": ["name", "symbol", "price", "changePercent", "marketCap"],
     "type": "js",
     "modulePath": "xueqiu/stock.js",
     "sourceFile": "xueqiu/stock.js",
@@ -19057,12 +16676,7 @@
         "help": "默认 100"
       }
     ],
-    "columns": [
-      "symbol",
-      "name",
-      "price",
-      "changePercent"
-    ],
+    "columns": ["symbol", "name", "price", "changePercent"],
     "type": "js",
     "modulePath": "xueqiu/watchlist.js",
     "sourceFile": "xueqiu/watchlist.js",
@@ -19138,12 +16752,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/background.js",
     "sourceFile": "yollomi/background.js",
@@ -19177,10 +16786,7 @@
         "default": "qwen-image-edit",
         "required": false,
         "help": "Edit model",
-        "choices": [
-          "qwen-image-edit",
-          "qwen-image-edit-plus"
-        ]
+        "choices": ["qwen-image-edit", "qwen-image-edit-plus"]
       },
       {
         "name": "output",
@@ -19197,13 +16803,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "credits",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "credits", "url"],
     "type": "js",
     "modulePath": "yollomi/edit.js",
     "sourceFile": "yollomi/edit.js",
@@ -19244,12 +16844,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/face-swap.js",
     "sourceFile": "yollomi/face-swap.js",
@@ -19283,13 +16878,7 @@
         "default": "1:1",
         "required": false,
         "help": "Aspect ratio",
-        "choices": [
-          "1:1",
-          "16:9",
-          "9:16",
-          "4:3",
-          "3:4"
-        ]
+        "choices": ["1:1", "16:9", "9:16", "4:3", "3:4"]
       },
       {
         "name": "image",
@@ -19312,13 +16901,7 @@
         "help": "Only show URLs, skip download"
       }
     ],
-    "columns": [
-      "index",
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["index", "status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/generate.js",
     "sourceFile": "yollomi/generate.js",
@@ -19337,20 +16920,10 @@
         "default": "all",
         "required": false,
         "help": "Filter by model type",
-        "choices": [
-          "all",
-          "image",
-          "video",
-          "tool"
-        ]
+        "choices": ["all", "image", "video", "tool"]
       }
     ],
-    "columns": [
-      "type",
-      "model",
-      "credits",
-      "description"
-    ],
+    "columns": ["type", "model", "credits", "description"],
     "type": "js",
     "modulePath": "yollomi/models.js",
     "sourceFile": "yollomi/models.js"
@@ -19392,12 +16965,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/object-remover.js",
     "sourceFile": "yollomi/object-remover.js",
@@ -19433,12 +17001,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/remove-bg.js",
     "sourceFile": "yollomi/remove-bg.js",
@@ -19474,12 +17037,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/restore.js",
     "sourceFile": "yollomi/restore.js",
@@ -19511,11 +17069,7 @@
         "default": "upper",
         "required": false,
         "help": "Clothing type",
-        "choices": [
-          "upper",
-          "lower",
-          "overall"
-        ]
+        "choices": ["upper", "lower", "overall"]
       },
       {
         "name": "output",
@@ -19532,12 +17086,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/try-on.js",
     "sourceFile": "yollomi/try-on.js",
@@ -19559,12 +17108,7 @@
         "help": "Local file path to upload"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "url"],
     "type": "js",
     "modulePath": "yollomi/upload.js",
     "sourceFile": "yollomi/upload.js",
@@ -19591,10 +17135,7 @@
         "default": "2",
         "required": false,
         "help": "Upscale factor (2 or 4)",
-        "choices": [
-          "2",
-          "4"
-        ]
+        "choices": ["2", "4"]
       },
       {
         "name": "output",
@@ -19611,13 +17152,7 @@
         "help": "Only show URL"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "scale",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "scale", "url"],
     "type": "js",
     "modulePath": "yollomi/upscale.js",
     "sourceFile": "yollomi/upscale.js",
@@ -19657,13 +17192,7 @@
         "default": "16:9",
         "required": false,
         "help": "Aspect ratio",
-        "choices": [
-          "1:1",
-          "16:9",
-          "9:16",
-          "4:3",
-          "3:4"
-        ]
+        "choices": ["1:1", "16:9", "9:16", "4:3", "3:4"]
       },
       {
         "name": "output",
@@ -19680,13 +17209,7 @@
         "help": "Only show URL, skip download"
       }
     ],
-    "columns": [
-      "status",
-      "file",
-      "size",
-      "credits",
-      "url"
-    ],
+    "columns": ["status", "file", "size", "credits", "url"],
     "type": "js",
     "modulePath": "yollomi/video.js",
     "sourceFile": "yollomi/video.js",
@@ -19715,10 +17238,7 @@
         "help": "Max recent videos (max 30)"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "youtube/channel.js",
     "sourceFile": "youtube/channel.js",
@@ -19747,14 +17267,7 @@
         "help": "Max comments (max 100)"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "text",
-      "likes",
-      "replies",
-      "time"
-    ],
+    "columns": ["rank", "author", "text", "likes", "replies", "time"],
     "type": "js",
     "modulePath": "youtube/comments.js",
     "sourceFile": "youtube/comments.js",
@@ -19806,14 +17319,7 @@
         "help": "Max videos to return (default 30, max 200)"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "channel",
-      "views",
-      "duration",
-      "url"
-    ],
+    "columns": ["rank", "title", "channel", "views", "duration", "url"],
     "type": "js",
     "modulePath": "youtube/history.js",
     "sourceFile": "youtube/history.js",
@@ -19835,10 +17341,7 @@
         "help": "YouTube video URL or video ID"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "youtube/like.js",
     "sourceFile": "youtube/like.js",
@@ -19955,10 +17458,7 @@
         "help": "Channel ID (UCxxxx) or handle (@name)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "youtube/subscribe.js",
     "sourceFile": "youtube/subscribe.js",
@@ -19980,13 +17480,7 @@
         "help": "Max channels to return (default 50)"
       }
     ],
-    "columns": [
-      "rank",
-      "name",
-      "handle",
-      "subscribers",
-      "url"
-    ],
+    "columns": ["rank", "name", "handle", "subscribers", "url"],
     "type": "js",
     "modulePath": "youtube/subscriptions.js",
     "sourceFile": "youtube/subscriptions.js",
@@ -20042,10 +17536,7 @@
         "help": "YouTube video URL or video ID"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "youtube/unlike.js",
     "sourceFile": "youtube/unlike.js",
@@ -20067,10 +17558,7 @@
         "help": "Channel ID (UCxxxx) or handle (@name)"
       }
     ],
-    "columns": [
-      "status",
-      "message"
-    ],
+    "columns": ["status", "message"],
     "type": "js",
     "modulePath": "youtube/unsubscribe.js",
     "sourceFile": "youtube/unsubscribe.js",
@@ -20092,10 +17580,7 @@
         "help": "YouTube video URL or video ID"
       }
     ],
-    "columns": [
-      "field",
-      "value"
-    ],
+    "columns": ["field", "value"],
     "type": "js",
     "modulePath": "youtube/video.js",
     "sourceFile": "youtube/video.js",
@@ -20168,10 +17653,7 @@
         "help": "Enable Yuanbao deep thinking (default: false)"
       }
     ],
-    "columns": [
-      "Role",
-      "Text"
-    ],
+    "columns": ["Role", "Text"],
     "timeout": 180,
     "type": "js",
     "modulePath": "yuanbao/ask.js",
@@ -20186,10 +17668,7 @@
     "strategy": "cookie",
     "browser": true,
     "args": [],
-    "columns": [
-      "Status",
-      "Action"
-    ],
+    "columns": ["Status", "Action"],
     "type": "js",
     "modulePath": "yuanbao/new.js",
     "sourceFile": "yuanbao/new.js",
@@ -20324,13 +17803,7 @@
         "help": "Download images locally"
       }
     ],
-    "columns": [
-      "title",
-      "author",
-      "publish_time",
-      "status",
-      "size"
-    ],
+    "columns": ["title", "author", "publish_time", "status", "size"],
     "type": "js",
     "modulePath": "zhihu/download.js",
     "sourceFile": "zhihu/download.js",
@@ -20406,13 +17879,7 @@
         "help": "Actually perform the write action"
       }
     ],
-    "columns": [
-      "status",
-      "outcome",
-      "message",
-      "target_type",
-      "target"
-    ],
+    "columns": ["status", "outcome", "message", "target_type", "target"],
     "type": "js",
     "modulePath": "zhihu/follow.js",
     "sourceFile": "zhihu/follow.js",
@@ -20434,12 +17901,7 @@
         "help": "Number of items to return"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "heat",
-      "answers"
-    ],
+    "columns": ["rank", "title", "heat", "answers"],
     "type": "js",
     "modulePath": "zhihu/hot.js",
     "sourceFile": "zhihu/hot.js",
@@ -20467,13 +17929,7 @@
         "help": "Actually perform the write action"
       }
     ],
-    "columns": [
-      "status",
-      "outcome",
-      "message",
-      "target_type",
-      "target"
-    ],
+    "columns": ["status", "outcome", "message", "target_type", "target"],
     "type": "js",
     "modulePath": "zhihu/like.js",
     "sourceFile": "zhihu/like.js",
@@ -20502,12 +17958,7 @@
         "help": "Number of answers"
       }
     ],
-    "columns": [
-      "rank",
-      "author",
-      "votes",
-      "content"
-    ],
+    "columns": ["rank", "author", "votes", "content"],
     "type": "js",
     "modulePath": "zhihu/question.js",
     "sourceFile": "zhihu/question.js",
@@ -20536,14 +17987,7 @@
         "help": "Number of results"
       }
     ],
-    "columns": [
-      "rank",
-      "title",
-      "type",
-      "author",
-      "votes",
-      "url"
-    ],
+    "columns": ["rank", "title", "type", "author", "votes", "url"],
     "type": "js",
     "modulePath": "zhihu/search.js",
     "sourceFile": "zhihu/search.js",
@@ -20565,15 +18009,7 @@
         "help": "Number of dynamics to return"
       }
     ],
-    "columns": [
-      "time",
-      "group",
-      "author",
-      "title",
-      "comments",
-      "likes",
-      "url"
-    ],
+    "columns": ["time", "group", "author", "title", "comments", "likes", "url"],
     "type": "js",
     "modulePath": "zsxq/dynamics.js",
     "sourceFile": "zsxq/dynamics.js",
